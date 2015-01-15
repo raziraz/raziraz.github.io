@@ -4519,15 +4519,18 @@ UL.tags,
 }
 
 .links a {
-    
     color: #669fe0;
 }
 
 .links LI {
-    
     color: #999;
-    margin-bottom: 15px;
+    margin-top: 7px;
 }
+
+.links LI:first-child {
+    margin-top: 10px;
+}
+
 
 /* LISTS FIX END*/
 
