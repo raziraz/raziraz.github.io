@@ -5259,6 +5259,7 @@ UL.tags,
 }
 
 .filter-menu span.surveillance .button {
+   display: block;
    max-width: 150px;
    text-align: left;
    font-size: 1em;
