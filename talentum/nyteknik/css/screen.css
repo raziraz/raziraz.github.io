@@ -5249,15 +5249,13 @@ UL.tags,
    border-bottom: solid 1px #ccc;
    margin: 0 0 3px 0;
    padding: 0 0 4px 0;
-   clear: both;
 }
 
 .filter-menu span.surveillance { 
   display: inline-block;
   border: none;
   font-size: small;
-  max-width: 150px;
-   font-size: 1em;
+   max-width: 200px;
    float: right;
    background: #81de81;
    background-image: -webkit-linear-gradient(top, #81de81, #06AB06);
