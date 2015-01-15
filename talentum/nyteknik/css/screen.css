@@ -5255,11 +5255,10 @@ UL.tags,
 .filter-menu span.surveillance { 
   display: inline-block;
   border: none;
-  font-size: small;
-  clear: both;
+  font-size: small;  
 }
 
-.filter-menu span.surveillance .button {
+.filter-menu span.surveillance a.button {
    display: block;
    max-width: 150px;
    font-size: 1em;
