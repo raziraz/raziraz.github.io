@@ -5238,6 +5238,8 @@ UL.tags,
 /* Filter menu */
 .filter-menu {
    margin-bottom: 12px;
+   float: left;
+   width: 100%;
 }
 
 .filter-menu span {
@@ -5251,17 +5253,15 @@ UL.tags,
 }
 
 .filter-menu span.surveillance { 
-  display: block;
+  display: inline-block;
   border: none;
   font-size: small;
-  margin-top: 7px;
   clear: both;
 }
 
 .filter-menu span.surveillance .button {
    display: block;
    max-width: 150px;
-   text-align: left;
    font-size: 1em;
    float: right;
    background: #81de81;
