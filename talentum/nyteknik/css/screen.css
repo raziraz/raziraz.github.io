@@ -5255,12 +5255,8 @@ UL.tags,
 .filter-menu span.surveillance { 
   display: inline-block;
   border: none;
-  font-size: small;  
-}
-
-.filter-menu span.surveillance a.button {
-   display: block;
-   max-width: 150px;
+  font-size: small;
+  max-width: 150px;
    font-size: 1em;
    float: right;
    background: #81de81;
@@ -5280,6 +5276,10 @@ UL.tags,
    -webkit-box-shadow: inset 0px 1px 0px 0px rgba(219,252,219,1);
    -moz-box-shadow: inset 0px 1px 0px 0px rgba(219,252,219,1);
    box-shadow: inset 0px 1px 0px 0px rgba(219,252,219,1);
+}
+
+.filter-menu span.surveillance a.button {
+   
 }
 
 
