@@ -5249,12 +5249,10 @@ UL.tags,
    padding: 0 0 4px 0;
 }
 
-.filter-menu span.surveillance {
+.filter-menu span.surveillance { 
   display: block;
   border: none;
   font-size: small;
-  float: right;
-  vertical-align: baseline;
   margin-top: 7px;
   clear: both;
 }
@@ -5263,6 +5261,7 @@ UL.tags,
    max-width: 150px;
    text-align: left;
    font-size: 1em;
+   float: right;
    background: #81de81;
    background-image: -webkit-linear-gradient(top, #81de81, #06AB06);
    background-image: -moz-linear-gradient(top, #81de81, #06AB06);
