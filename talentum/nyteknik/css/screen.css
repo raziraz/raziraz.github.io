@@ -5238,11 +5238,9 @@ UL.tags,
 /* Filter menu */
 .filter-menu {
    margin-bottom: 12px;
-   float: left;
-   width: 100%;
 }
 
-.filter-menu span {
+.filter-menu span:first-child {
    color: #000000;
    display: block;
    font: 700 25px "Helvetica Neue", Helvetica, Segoe, "Segoe UI", "Segoe WP", Calibri, Arial, clean, sans-serif;
