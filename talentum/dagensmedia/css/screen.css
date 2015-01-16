@@ -3735,13 +3735,12 @@ body .box H2 { /* 'Body' for specificity */
    -webkit-border-radius: 5;
    -moz-border-radius: 5;
    border-radius: 5px;
-   text-shadow: 0px -1px 0px #227a39;
    color: #ffffff;
-   border: solid #079d07 1px;
+   border: solid #0b8e0b 1px;
    text-decoration: none;
-   -webkit-box-shadow: inset 0px 1px 0px 0px rgba(219,252,219,1);
-   -moz-box-shadow: inset 0px 1px 0px 0px rgba(219,252,219,1);
-   box-shadow: inset 0px 1px 0px 0px rgba(219,252,219,1);
+   -webkit-box-shadow: inset 0px 1px 0px 0px rgba(49,210,49,1);
+   -moz-box-shadow: inset 0px 1px 0px 0px rgba(49,210,49,1);
+   box-shadow: inset 0px 1px 0px 0px rgba(49,210,49,1);
    padding: 0;
    margin-top: -30px;
 }
