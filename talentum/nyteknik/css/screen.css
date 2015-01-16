@@ -4101,7 +4101,7 @@ P .entry-word {
    display: none;
 }
 
-.javascript .poll .more {
+.javascript .poll a.more {
    display: block;
    float: right;
 }
