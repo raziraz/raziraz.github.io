@@ -5281,8 +5281,12 @@ UL.tags,
    box-shadow: inset 0px 1px 0px 0px rgba(219,252,219,1);
 }
 
-.filter-menu span.surveillance a.button {
-   
+.filter-menu span.surveillance a.button:before {
+   content:'';
+   background: ('../images/email-icon.png');
+   height: 16px;
+   width: 33px;
+   position: absolute;
 }
 
 
