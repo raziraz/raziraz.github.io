@@ -5252,7 +5252,7 @@ UL.tags,
    font: 700 25px "Helvetica Neue", Helvetica, Segoe, "Segoe UI", "Segoe WP", Calibri, Arial, clean, sans-serif;
    border-bottom: solid 1px #ccc;
    margin: 0 0 3px 0;
-   padding: 0 0 4px 0;
+   padding: 23px 0 4px 0;
 }
 
 .filter-menu span.surveillance { 
@@ -5284,6 +5284,8 @@ UL.tags,
 
 .filter-menu span.surveillance a.button {
    padding: 7px 10px 5px 10px;
+   margin-top: -30px;
+   margin-bottom: 0;
 }
 
 .filter-menu span.surveillance a.button:before {
