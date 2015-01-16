@@ -5282,7 +5282,7 @@ UL.tags,
 
 
 .filter-menu span.surveillance a.button {
-   padding: 7px 10px 8px 10px;
+   padding: 5px;
 }
 
 .filter-menu span.surveillance a.button:before {
@@ -5292,6 +5292,9 @@ UL.tags,
    width: 24px;
    display: inline-block;
    background-size: 24px 24px;
+   background-repeat: no-repeat;
+   background-position: center center;
+   float: left;
 }
 
 
