@@ -5258,7 +5258,7 @@ UL.tags,
 .filter-menu span.surveillance { 
   display: inline-block;
   border: none;
-  font-size: small;
+  font-size: 0.59em;
    max-width: 200px;
    float: right;
    background: #81de81;
@@ -5278,6 +5278,11 @@ UL.tags,
    -webkit-box-shadow: inset 0px 1px 0px 0px rgba(219,252,219,1);
    -moz-box-shadow: inset 0px 1px 0px 0px rgba(219,252,219,1);
    box-shadow: inset 0px 1px 0px 0px rgba(219,252,219,1);
+}
+
+
+.filter-menu span.surveillance a.button {
+   padding: 0;
 }
 
 .filter-menu span.surveillance a.button:before {
