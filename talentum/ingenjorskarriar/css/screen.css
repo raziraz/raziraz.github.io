@@ -3534,7 +3534,7 @@ font-weight: 700;
 }
 .teaser .links li {
   margin: 0 0 2px 0;
-  padding: 0 0 0 12px;
+  padding: 0;
   background: url("../images/list-bullet.gif") no-repeat -994px 5px;
 }
 .teaser .links a {
@@ -4311,6 +4311,7 @@ UL.tags,
   font-weight: 400;
   letter-spacing: 1px;
   text-transform: uppercase;
+  display: inline;
 }
 .jobs LI {
   margin: 2px 0 0 0;
