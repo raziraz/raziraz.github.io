@@ -5278,6 +5278,7 @@ UL.tags,
    -webkit-box-shadow: inset 0px 1px 0px 0px rgba(219,252,219,1);
    -moz-box-shadow: inset 0px 1px 0px 0px rgba(219,252,219,1);
    box-shadow: inset 0px 1px 0px 0px rgba(219,252,219,1);
+   padding: 0;
 }
 
 
