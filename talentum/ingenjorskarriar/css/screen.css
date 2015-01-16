@@ -3536,12 +3536,14 @@ font-weight: 700;
   margin: 0 0 2px 0;
   padding: 0 0 0 12px;
   background: url("../images/list-bullet.gif") no-repeat -994px 5px;
-  display: inline;
-  float: left;
 }
 .teaser .links a {
   color: #424242;
 }
+.teaser .links a.span {
+  display: inline;
+}
+.t
 .teaser .links a:focus,
 .teaser .links a:hover {
   text-decoration: none;
