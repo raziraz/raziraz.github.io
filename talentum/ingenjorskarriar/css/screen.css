@@ -2545,14 +2545,9 @@ TH P {
 .button {
   display: block;
   float: left;
-  background: #313030;
   color: white;
-  font-size: 10px;
   font-weight: bold;
   padding: 5px 6px 3px;
-  text-transform: uppercase;
-
-
   -webkit-border-radius: 2px;
      -moz-border-radius: 2px;
       border-radius: 2px;
