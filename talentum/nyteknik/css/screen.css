@@ -5256,7 +5256,12 @@ UL.tags,
 }
 
 .filter-menu span.surveillance { 
-  display: inline-block;
+
+}
+
+
+.filter-menu span.surveillance a.button {
+   display: inline-block;
   border: none;
   font-size: 0.59em;
    max-width: 200px;
@@ -5273,16 +5278,11 @@ UL.tags,
    border-radius: 5px;
    text-shadow: 0px -1px 0px #227a39;
    color: #ffffff;
-   padding: 7px 10px 8px 10px;
    border: solid #06AB06 1px;
    text-decoration: none;
    -webkit-box-shadow: inset 0px 1px 0px 0px rgba(219,252,219,1);
    -moz-box-shadow: inset 0px 1px 0px 0px rgba(219,252,219,1);
    box-shadow: inset 0px 1px 0px 0px rgba(219,252,219,1);
-}
-
-
-.filter-menu span.surveillance a.button {
    padding: 0;
 }
 
