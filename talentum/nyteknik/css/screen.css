@@ -4042,6 +4042,10 @@ P .entry-word {
    border-top: 1px solid #ccc;
 }
 
+.poll .question {
+   width: 100%;
+}
+
 .subteaser .poll {
    margin: 0px;
    border-top: 0px;
@@ -4100,7 +4104,7 @@ P .entry-word {
 .poll .more {
    display: none;
 }
-
+   
 .javascript .poll a.more {
    display: block;
    float: right;
