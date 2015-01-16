@@ -4071,7 +4071,8 @@ P .entry-word {
 }
 
 .poll FIELDSET DIV {
-   margin: 0 5px 0 0;
+   margin: 3px 5px 0 0;
+   display: inline-block;
 }
 
 .poll .result {
@@ -4102,6 +4103,7 @@ P .entry-word {
 
 .javascript .poll .more {
    display: block;
+   float: right;
 }
 
 .teaser .poll {
