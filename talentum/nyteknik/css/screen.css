@@ -5283,9 +5283,9 @@ UL.tags,
 .filter-menu span.surveillance a.button:before {
    content:'';
    background: url('../images/email-icon.png');
-   height: 16px;
-   width: 33px;
-   position: absolute;
+   height: 24px;
+   width: 24px;
+   display: inline-block;
 }
 
 
