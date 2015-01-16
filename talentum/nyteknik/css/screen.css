@@ -5258,8 +5258,8 @@ UL.tags,
 .filter-menu span.surveillance { 
   display: inline-block;
   border: none;
-  font-size: 0.59em;
-   max-width: 200px;
+  font-size: 0.6em;
+   max-width: 230px;
    float: right;
    height: 50px;
    background: #81de81;
@@ -5282,13 +5282,13 @@ UL.tags,
 
 
 .filter-menu span.surveillance a.button {
-   padding: 5px;
+   padding: 7px 10px 5px 10px;
 }
 
 .filter-menu span.surveillance a.button:before {
    content:'';
    background: url('../images/email-icon.png');
-   height: 50px;
+   height: 36px;
    width: 24px;
    display: inline-block;
    background-size: 24px 24px;
