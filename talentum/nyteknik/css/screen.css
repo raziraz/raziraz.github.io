@@ -2851,7 +2851,6 @@ TH P {
    float: left;
    color: white;
    padding: 2px 6px;
-   background: url(../images/bg_button.png) repeat-x left bottom;
 }
 
 .button:hover,
@@ -5283,7 +5282,7 @@ UL.tags,
 
 .filter-menu span.surveillance a.button:before {
    content:'';
-   background: ('../images/email-icon.png');
+   background: url('../images/email-icon.png');
    height: 16px;
    width: 33px;
    position: absolute;
