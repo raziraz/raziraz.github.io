@@ -5261,6 +5261,7 @@ UL.tags,
   font-size: 0.59em;
    max-width: 200px;
    float: right;
+   height: 50px;
    background: #81de81;
    background-image: -webkit-linear-gradient(top, #81de81, #06AB06);
    background-image: -moz-linear-gradient(top, #81de81, #06AB06);
@@ -5288,7 +5289,7 @@ UL.tags,
 .filter-menu span.surveillance a.button:before {
    content:'';
    background: url('../images/email-icon.png');
-   height: 24px;
+   height: 50px;
    width: 24px;
    display: inline-block;
    background-size: 24px 24px;
