@@ -5322,6 +5322,7 @@ body .box H2 { /* 'Body' for specificity */
     display: inline;
     margin: 0 .25em 0 0;
     font-size: 13px;
+    vertical-align: middle;
 }
 
 .poll FIELDSET {
@@ -5332,6 +5333,7 @@ body .box H2 { /* 'Body' for specificity */
     width: auto !important;
     border: 0;
     padding: 0;
+    margin-right: 5px;
 }
 
 .poll FIELDSET DIV {
