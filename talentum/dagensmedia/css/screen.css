@@ -5375,7 +5375,7 @@ body .box H2 { /* 'Body' for specificity */
 
 .article .additional-content .poll fieldset div {
     float: none;
-    margin: 0;
+    margin: 4px 0 2px 0;
 }
 
 /* NEWSLETTER TEASER */
