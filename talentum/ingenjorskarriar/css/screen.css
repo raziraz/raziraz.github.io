@@ -3731,18 +3731,20 @@ font-weight: 700;
   font-size: 12px;
   line-height: 15px;
   font-family: "Helvetica Neue", Helvetica, Segoe, "Segoe UI", "Segoe WP", Calibri, Arial, clean, sans-serif;
+  vertical-align: middle;
 }
 .poll FIELDSET {
   margin: 0;
 }
 .poll INPUT {
   width: auto !important;
+  margin-right: 2px;
 }
 .poll FIELDSET DIV {
   margin: 0 5px 0 0;
 }
 .poll fieldset .question div {
-  margin: 5px 5px 0 0;
+  margin: 5px 10px 0 0;
   float: left;
   /*white-space: nowrap;*/
 }
