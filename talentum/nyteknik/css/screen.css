@@ -4063,6 +4063,7 @@ P .entry-word {
    margin: 0 .25em 0 4px;
    display: inline;
    font-weight: normal;
+   vertical-align: middle;
 }
 
 .poll FIELDSET {
@@ -4074,7 +4075,7 @@ P .entry-word {
 }
 
 .poll FIELDSET DIV {
-   margin: 3px 5px 0 0;
+   margin: 5px 5px 0 0;
    display: inline-block;
 }
 
