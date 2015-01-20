@@ -5338,7 +5338,7 @@ body .box H2 { /* 'Body' for specificity */
 
 .poll FIELDSET DIV {
     float: left;
-    margin: 0 .75em 0 0;
+    margin: 0 .75em 5px 1px;
 }
 
 .poll .result {
