@@ -878,7 +878,9 @@ border: none;
    -o-backface-visibility: hidden;
    backface-visibility: hidden;
  }
-
+ #menu-toggle ~ #menus ul {
+   display: none;
+ }
  #menus ul li:hover a {
    cursor: pointer;
    /*  background: #DA2128;*/
