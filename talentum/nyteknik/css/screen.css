@@ -8482,3 +8482,21 @@ border: none;
     padding: 0 !important;
     height: auto !important;
 }
+
+/* SOCIAL SHARING */
+
+.twitterwidget .btn-o .btn {
+position: relative;
+background-color: #eee;
+background-image: -webkit-linear-gradient(#fff,#dedede);
+background-image: linear-gradient(#fff,#dedede);
+border: #ccc solid 1px;
+border-radius: 3px;
+color: #333;
+font-weight: bold;
+text-shadow: 0 1px 0 rgba(255,255,255,.5);
+cursor: pointer;
+height: 18px;
+max-width: 98%;
+overflow: hidden;
+}
