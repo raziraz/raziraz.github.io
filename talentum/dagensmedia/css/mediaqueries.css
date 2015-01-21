@@ -880,6 +880,7 @@ border: none;
  }
  #menu-toggle:checked ~ #menus {
    display: none;
+   width: 0;
  }
  #menus ul li:hover a {
    cursor: pointer;
