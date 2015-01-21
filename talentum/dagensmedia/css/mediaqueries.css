@@ -774,6 +774,18 @@ border: none;
  .padMessage {
    display: none;
  }
+ /* Temp solution to fix menu issue */
+ #ad-content:before {
+   content: "";
+   position: absolute;
+   z-index: 0;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 100%;
+   display: block;
+ }
  #ad-content {
    /* To enable the animation, this code must be added to the "main-content" div, in this case #page */
    -webkit-transform: translate3d(0, 0, 0);
@@ -804,7 +816,7 @@ border: none;
    left: 0;
    height: 100%;
    background: #3c4451;
-   z-index: 0;
+   z-index: -1000;
    margin: 0;
    width: 80%;
    /*overflow: scroll;*/
@@ -877,10 +889,6 @@ border: none;
    -ms-backface-visibility: hidden;
    -o-backface-visibility: hidden;
    backface-visibility: hidden;
- }
-#menus ~ #menu-toggle:checked {
-   display: block;
-   width: 0;
  }
  #menus ul li:hover a {
    cursor: pointer;
