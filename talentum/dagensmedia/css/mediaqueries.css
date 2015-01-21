@@ -785,6 +785,7 @@ border: none;
    width: 100%;
    height: 100%;
    display: block;
+   background-color: #fff;
  }
  #ad-content {
    /* To enable the animation, this code must be added to the "main-content" div, in this case #page */
