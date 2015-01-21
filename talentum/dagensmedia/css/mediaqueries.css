@@ -776,7 +776,7 @@ border: none;
  }
  /* Temp solution to fix menu issue */
  #ad-content:before {
-   content: "";
+   content: " ";
    position: absolute;
    z-index: 0;
    top: 0;
