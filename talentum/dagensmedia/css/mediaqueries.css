@@ -255,7 +255,7 @@ body.resp #header .tools{
    max-width: 240px;
    display: block;
  }
- #top-teasers .teaser H2 {
+ #top-teasers .teaser .title {
    width: 100%;
  }
  .articleCommentInfo {
@@ -343,7 +343,7 @@ body.resp #header .tools{
    border: none;
    background: #fff;
  }
- .box h2 {
+ .box h2, .box .title {
    border: none;
  }
  .box-body {
@@ -807,7 +807,7 @@ border: none;
    z-index: 0;
    margin: 0;
    width: 80%;
-   overflow: scroll;
+   /*overflow: scroll;*/
  }
  #menus ul {
    list-style: none;
@@ -922,10 +922,10 @@ border: none;
        -webkit-transition: .15s ease-in-out;
  }
  #menus > ul > li > .nav-toggle:before {
-   content: "▶";
+   content: "â–¶";
  }
  #menus > ul > li[data-open="open"] > .nav-toggle {
- /* content: "▼ "; */
+ /* content: "â–¼ "; */
          -webkit-transform: rotate(90deg);
 
  }
@@ -1051,7 +1051,7 @@ border: none;
    width: 90%;
    border: none;
  }
- .box H2 {
+ .box H2, .box .title {
    width: 91%;
  }
  .comment-reply {
@@ -1108,11 +1108,6 @@ border: none;
    font-size: 20px;
    color: #555;
    float: left;
- }
-
- #twingly .tw_widget {
-   margin: 10px auto 0 auto;
-   width: 95%;
  }
 
  .columns-3-1 .column1 INPUT, .columns-3-1 .column1 TEXTAREA {

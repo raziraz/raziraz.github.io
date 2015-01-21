@@ -1,0 +1,113 @@
+#header,
+#content,
+#footer,
+.columns-1-1,
+.columns-2-1,
+.columns-3-1,
+.columns-1-2,
+.columns-1-1-1,
+.column1,
+.column2,
+.column3,
+.column4,
+.article-blog {
+	overflow: visible;
+}
+#header,
+#content,
+#footer,
+.article {
+	clear: both;
+}
+.has-article .column2,
+.has-article .columns-1-1,
+.has-article .columns-1-2,
+.has-article .columns-2-1,
+.has-article .columns-1-1-1 {
+	display: none;
+}
+.has-article .skip,
+.has-article #header .tools,
+.has-article #top-teasers,
+.has-article #menus,
+.has-article #footer,
+.has-article .article .tools,
+.has-article .additional-content,
+.has-article .links,
+.has-article .tags,
+.has-article .ad,
+#sticky-ad,
+.has-article #comments,
+.has-article .latest-comment,
+.has-article .jobs,
+.has-article .page-menu,
+.has-article .page-navigation,
+.has-article .article-job A.apply,
+.has-article #recommend,
+.has-article .media-slideshow .navigation,
+.has-article .section-heading,
+.has-article .subsection,
+.has-article .teaser,
+.has-article .media-video,
+.has-article .media-audio {
+	display: none !important;
+}
+.has-article * {
+	background: none !important;
+}
+.has-article .first,
+.has-article .first .columns-1-1,
+.has-article .first .columns-1-2,
+.has-article .first .columns-2-1,
+.has-article .first .columns-3-1,
+.has-article .first .columns-1-1-1 {
+	display: block;
+}
+.has-article #header,
+.has-article #page,
+.has-article .columns-1-1,
+.has-article .columns-1-2,
+.has-article .columns-2-1,
+.has-article .columns-3-1,
+.has-article .columns-1-1 .column1,
+.has-article .columns-1-2 .column1,
+.has-article .columns-2-1 .column1,
+.has-article .columns-3-1 .column1,
+.has-article .columns-2-1 .column1 .columns-2-1 .column1,
+.has-article .columns-3-1 .column1 .columns-2-1 .column1 {
+	width: 100%;
+	float: none;
+}
+.has-article #header {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 12px;
+}
+.has-article #header #logo {
+	position: relative;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 206px;
+	height: 48px;
+}
+.has-article #header .payoff {
+	left: 220px;
+	top: 12px;
+}
+.has-article #header .payoff SPAN {
+	color: black;
+}
+.has-article #page,
+.has-article .columns-2-1 .column1,
+.has-article .columns-3-1 .column1 {
+	padding: 0;
+}
+.has-article .media {
+	margin-bottom: 12px;
+}
+.has-article .comment {
+	border: 1px solid #ccc;
+}
+.has-article .comment .entry-meta {
+	padding-left: 10px;
+}

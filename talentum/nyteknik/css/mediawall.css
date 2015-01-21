@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "benton-sans-bold";
+  src: url("fonts/BentonSans-Bold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "benton-sans-thin";
+  src: url("fonts/BentonSans-Light.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "benton-sans-regular";
+  src: url("fonts/BentonSans-Book.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* FONTS & COLOURS */
+html {
+    background: #f2f8fd;
+}
+header {
+    background: url(../images/mediawall/logo-nyt.png) no-repeat 96% 80px;
+}
+#content p,
+#ticker {
+    color: #0072bc;
+}
+#ticker-footer {
+	background-image: -webkit-gradient(linear, left top, right top, from(rgba(242, 248, 253, 0)), to(#f2f8fd));
+}
+#content h2 {
+    font-family: "benton-sans-bold", arial, sans-serif;
+}
+#content p {
+    font-family: "benton-sans-thin", arial, sans-serif;
+}
+#ticker {
+    font-family: "benton-sans-regular", arial, sans-serif;
+}
+#ticker-header {
+    font-family: "benton-sans-bold", arial, sans-serif;
+}

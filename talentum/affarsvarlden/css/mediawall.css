@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "antenna-bold";
+  src: url("fonts/Antenna-Bold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "antenna-thin";
+  src: url("fonts/Antenna-Thin.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "antenna-regular";
+  src: url("fonts/Antenna-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* FONTS & COLOURS */
+html {
+    background: #fdf3f3;
+}
+header {
+    background: url(../images/mediawall/logo-afv.png) no-repeat 96% 60px;
+}
+#content p,
+#ticker {
+    color: #ce1010;
+}
+#ticker-footer {
+	background-image: -webkit-gradient(linear, left top, right top, from(rgba(253, 243, 243, 0)), to(#fdf3f3));
+}
+#content h2 {
+    font-family: "antenna-bold", arial, sans-serif;
+}
+#content p {
+    font-family: "antenna-thin", arial, sans-serif;
+}
+#ticker {
+    font-family: "antenna-regular", arial, sans-serif;
+}
+#ticker-header {
+    font-family: "antenna-bold", arial, sans-serif;
+}
+
+
+
+/* Stock items */
+.stock-item {
+    float: left;
+    margin: 0 0 0 10px;
+    background: url(../images/mediawall/stock-arrows.png) no-repeat 0 -458px;
+    padding: 0 0 0 175px;
+    width: 360px;
+}
+h2 + .stock-item {
+    margin-left: 0;
+}
+#content .stock-item h3,
+#content .stock-item p {
+    color: #978585;
+}
+#content .stock-item h3 {
+    font: 70px/1.2 "antenna-thin", arial, serif;
+}
+#content .stock-item p {
+    font: bold 70px/1.1 "antenna-bold", arial, sans-serif;
+}
+#content .stock-item.positive {
+    background-position: 0 -222px;
+}
+#content .stock-item.positive h3,
+#content .stock-item.positive p {
+    color: #2aa82a;
+}
+#content .stock-item.negative {
+    background-position: 0 14px;
+}
+#content .stock-item.negative h3,
+#content .stock-item.negative p {
+    color: #cf1010;
+}

@@ -1,0 +1,36 @@
+BODY {
+	margin: 0;
+	padding: 5px 5px 10px 5px;
+	font-family: arial, sans-serif;
+}
+.logo {
+	margin: 0 0 10px 0;
+}
+H1 {
+	margin: 0 0 5px 0;
+	font-family: arial, sans-serif;
+	line-height: 1.0;
+}
+.dateline {
+	color: #666;
+}
+.links UL {
+	margin: 0;
+	padding: 0;
+}
+.links LI {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.links A {
+	padding: 5px 2px;
+	text-decoration: none;
+	display: block;
+}
+.links .odd {
+	background-color: #eee;
+}
+.links A SPAN {
+	color: #666;
+}

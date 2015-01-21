@@ -1,0 +1,144 @@
+#header {
+	background: #DA2128;
+}
+#header {
+	min-height: 38px;
+	padding-bottom: 1px;
+}
+#header H1 A {
+	position: absolute;
+	width: 72px;
+	height: 39px;
+	background: url(../images/logo_mobil_affarsvarlden.gif) no-repeat 0 50%;
+	text-indent: -9999px;
+}
+#header .widgets {
+	margin: 0 0 0 87px;
+  width: 230px;
+	float: left; 
+}
+#header .stock-info LI {
+	padding: 5px 0;
+	border-top: 1px solid #f26166;
+	overflow: hidden;
+	_height: 1%;
+}
+#header .stock-info LI.first {
+	padding-top: 0;
+	border-top: none;
+}
+#header .stock-info IMG {
+	float: left;
+	margin: 0 6px 0 0;
+}
+#header .stock-info .index {
+	font-size: 14px;
+	font-weight: bold;
+}
+#header .stock-info .date {
+	font-size: 12px;
+	color: #fbb5b5;
+}
+#header .stock-info .change {
+	font-size: 18px;
+	font-weight: bold;
+}
+#footer .info {
+	background: #DA2128 url(../images/logo_mobil_affarsvarlden.gif) no-repeat 10px 50%;
+	min-height: 39px;
+}
+#footer .info P {
+	margin-left: 82px;
+	padding-left: 10px;
+	border-left: 1px solid #f26166;
+}
+
+.menu {
+background: none repeat scroll 0 0 #FFFFFF;
+padding: 5px;
+border-bottom: 4px solid #eaeaea;
+}
+
+.menu a {
+font-size:13px;
+font-weight:bold;
+line-height:1.05;
+padding:0;
+margin-left:5px;
+}
+.stock-teaser A {
+  color: #000;
+}
+.stock-teaser .stock-item {
+  margin: 5px 0 0 0;
+  border-top: 1px solid #F26166;
+  padding: 6px 0 3px;
+}
+.stock-teaser .stock-item:first-child {
+  margin-top: 0;
+  border-top: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.stock-teaser H2 {
+	font-size:14px;
+	font-weight:bold;
+	float:left;
+	text-indent:28px;
+	padding:5px 0 0;
+	color: #FFFFFF;
+}
+H2 {
+	background:none;
+	padding:0px;
+}
+.stock-teaser .date {
+  font-size: 12px;
+  font-weight: normal;
+  color: #FBB5B5;
+  padding:0 5px 0 0;
+}
+.stock-teaser P {
+  height: 25px;
+  margin: 0;
+  padding: 0 0 0 35px;
+  background: url(../images/stockArrowMobile.png) no-repeat 0 -60px;
+}
+.stock-teaser .change {
+  display: block;
+  font-weight: bold;
+  font-size: 18px;
+  float:left;
+}
+.stock-teaser .stock-up P {
+  background-position: 0 0;
+}
+.stock-teaser .stock-up .change {
+  color: #fff;
+}
+.stock-teaser .stock-down P {
+  background-position: 0 -125px;
+}
+.stock-teaser .stock-down .change {
+  color: #fff;
+}
+.stock-teaser .total {
+  display: block;
+  font-size: 10px;
+  font-weight: normal;
+  color: #fff;
+  display:none;
+}
+.rssMobile {
+    position: absolute;
+    right: 3px;
+    top: 7px;
+    width: 28px;
+    /*float: left;*/
+}
+SPAN.entry-word{
+  display: none;
+}
+.rssMobile {
+  display: none;
+}

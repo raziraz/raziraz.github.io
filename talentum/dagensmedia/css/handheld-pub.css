@@ -1,0 +1,74 @@
+#header {
+	background: #eee url(../images/bg_header.jpg) top left repeat-x;
+	padding-bottom: 10px;
+	padding-top: 18px;
+	color: black;
+	border-bottom: 1px solid #ccc;
+}
+#header H1 A {
+	display: block;
+	width: 222px;
+	height: 34px;
+	margin: 0;
+	background: url(../images/dagensmedia_logo.png) no-repeat 2px 50%;
+	text-indent: -9999px;
+}
+#footer .info {
+	background: #005488 url(../images/dagensmedia_logo_small.png) no-repeat 12px 50%;
+	min-height: 39px;
+}
+#footer .info P {
+	margin-left: 69px;
+	padding-left: 10px;
+	border-left: 1px solid white;
+}
+.navigation .next-page,
+.navigation .home,
+A.show-more,
+.poll .question DIV LABEL,
+.breadcrumbs LI.first,
+.article .close-article {
+	background-color: #028EC0;
+}
+A,
+.news-small .visited .article A {
+	color: #028EC0;
+}
+.news .teaser p span {
+	color: #FF7800;
+}
+.news .visited .teaser p span {
+	color: #f6ac56;
+}
+.news-small LI {
+	background-image: url(../images/icon_disc_orange.png);
+}
+.sections A,
+.news-remote A {
+	background-image: url(../images/icon_right_blue.png);
+}
+.article A.show-comments {
+	background-image: url(../images/icon_down_blue.png);
+}
+/* Search is hidden due to DM's online offer */ 
+.search {
+	display:none;
+}
+/* Jobb */
+.job-block H1 A {
+    background: url("../images/lediga-jobb_275.png") no-repeat scroll 0 50% transparent;
+    display: block;
+    height: 30px;
+    margin: 0;
+    text-indent: -9999px;
+    width: 275px;
+}
+.job-block A.show-more {
+    background: url("../images/icon_right_white.png") no-repeat scroll 100% 50% #209850;
+}
+.job A.show-more {
+    background-color: #209850;
+}
+.rssMobile {
+  display: none;
+}

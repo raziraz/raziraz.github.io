@@ -1,0 +1,199 @@
+HTML {
+    font-family: georgia,serif;
+}
+#header {
+	background: #eee url(../images/bg_header_mobile.jpg) top left repeat-x;
+	padding-bottom: 8px;
+	padding-top: 20px;
+	color: black;
+	background-color: #fff;
+	
+}
+#header H1 A {
+	display: block;
+	width: 220px;
+	height: 44px;
+	margin: 0;
+	background: url(../images/logo_ingenjorskarriar.png) no-repeat 0 50%;
+	text-indent: -9999px;
+}
+#footer .info {
+	background: #fff url(../images/logo_ingenjorskarriar_small.png) no-repeat 12px 60%;
+	min-height: 40px;
+}
+#footer .info P {
+	margin-left: 82px;
+	padding-left: 10px;
+	border-left: 1px solid white;
+}
+.widgets .payoff {
+	position: absolute;
+	top: 17px;
+	right: 10px;
+	font-size: 12px;
+	text-align: right;
+	display: none;
+}
+.widgets .payoff .date {
+	color: #999;
+}
+.navigation .next-page,
+.navigation .home,
+A.show-more,
+.poll .question DIV LABEL,
+.breadcrumbs LI.first,
+.article .close-article {
+	background-color: #FF7D00;
+	font-family: arial,sans-serif;
+}
+A,
+.news-small .visited .article A {
+	color: #00A4BA;
+}
+.news .visited .teaser P SPAN {
+    color: #53bac8;
+}
+A.show-more {
+    color: #fff;
+    font-family: arial,sans-serif;
+}
+/*SPAN.entry-word{
+  display: none;
+}*/
+#header, #footer .info {
+    color: #424242;
+}
+.sections, .news-remote {
+	font-family: arial,sans-serif;
+}
+#footer {
+	font-family:arial,sans-serif;
+}
+.news .teaser P SPAN {
+    color: #00A4BA;
+    font-family: arial,sans-serif;
+    font-size: 12px;
+}
+.news .teaser H2 {
+    font-size: 20px;
+    font-weight: normal;
+}
+.news-small {
+	font-family: arial,sans-serif;
+}
+#menus {
+    border-top: 1px dotted #D4D4D4;
+    border-bottom: 1px dotted #D4D4D4;
+    font-size:;
+    line-height: 1;
+    overflow: hidden;
+    font-family:arial;
+    font-weight:bold;
+    background-color:#fff;
+}
+#menus UL {
+    margin-left:-1px;
+    overflow: hidden;
+    padding: 0;
+    width:100%;
+}
+#menus LI {
+    list-style-type: none;
+    margin: 0 9px 0 0;
+}
+#menus LI, #menus A {
+    float: left;
+}
+#menus A {
+    color: #282829;
+    padding: 8px 0;
+}
+#menus .selected A {
+    color: #FFB35E;
+}
+#menus SPAN {
+    border-left: 1px solid #D4D4D4;
+    display: block;
+    height: 24px;
+    line-height: 22px;
+    padding: 0 0 0 8px;
+}
+.article A.show-comments {
+    font-family: arial,sans-serif;
+}
+/*JOBB*/
+.job {
+    font-family: arial,sans-serif;
+}
+.job H2 {
+    font-size:19px;
+}
+.highlight {
+    background-color:#e5f7ff;
+}
+.job-block {
+    background-color:#E5F7FF;
+    padding-bottom: 3px;
+
+}
+.job-block H1 A {
+    background: url("../images/lediga-jobb_275.png") no-repeat scroll 0 50% transparent;
+    display: block;
+    height: 30px;
+    margin: 0;
+    text-indent: -9999px;
+    width: 275px;
+}
+.job-block .teaser H2{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: arial,sans-serif;
+}
+.job-block A.show-more {
+    background: url("../images/icon_right_white.png") no-repeat scroll 100% 50% #00A4BA;
+}
+.job A.show-more {
+    background-color: #00A4BA;
+}
+/*FAQ*/
+.news .faq P SPAN {
+    color: #FF7D00;
+}
+.article .person {
+    background: none repeat scroll 0 0 padding-box #E9F6F9;
+    border-radius: 3px 3px 3px 3px;
+    font-size: 13px;
+    height: 80px;
+    line-height: 1;
+    margin: 10px 0 20px;
+    overflow: hidden;
+    position: relative;
+}
+.article .person H2 {
+    background-color: #E9F6F9 !important;
+    color: #FF7D00;
+    font-size: 13px;
+    left: 60px;
+    padding: 0;
+    position: absolute;
+    top: 42px;
+}
+.article .person H2 SPAN {
+    font-weight: normal;
+    margin-left: 0.3em;
+}
+.article .person P {
+    font-weight: 700;
+    left: 60px;
+    position: absolute;
+    top: 11px;
+}
+.boilerplate {
+background-color:#FEF7DA;
+font-family:arial;
+padding:3px;
+color:#666666;
+}
+.rssMobile {
+  display: none;
+}

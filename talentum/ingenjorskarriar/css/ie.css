@@ -1,0 +1,210 @@
+/* Page */
+#page {
+	padding-top:29px;
+}
+
+/* Header */
+#header .payoff .sveriges-ingenjorer img {
+	width: 181px;
+}
+#header .payoff .nyteknik img {
+	width: 89px;
+}
+#header #logo {
+	top: 0;
+}
+#header .tools {
+	top: 65px;
+}
+
+/* Menu */
+#menus a:hover,
+#menus a:hover *,
+#menus-right a:hover,
+#menus-right a:hover * {
+	cursor: pointer;
+}
+
+/* Top teasers */
+#top-teasers {
+	top: 65px;
+}
+#top-teasers .search .submit {
+	line-height: 999px;
+	overflow: hidden;
+	font-size: 0;
+}
+#top-teasers .search .search-field INPUT {
+	margin-top: -1px;
+}
+
+/* Footer */
+#footer .footer-logo {
+	width: 430px;
+}
+#footer .general-links .content {
+	height: 75px;
+}
+
+
+.tags UL,
+UL.tags {
+	padding-bottom: 3px;	
+}
+OL { 
+	padding-left: 2.3em;
+}
+.tooltipElm SPAN {
+	background: #333;
+}
+.article .tools,
+#comments,
+.comment,
+.article,
+.entry-content,
+.poll .result,
+.poll .question {
+	min-height: 1px;
+}
+.auto-completion-list {
+	margin-left: 6px;
+	margin-top: 6px;
+}
+.poll .result,
+.poll .question {
+	background-color: #f2f9ff;
+}
+.job-results OL LI {
+	margin-bottom: -3px;
+}
+.job-results OL LI A {
+	padding-bottom: 38px;
+}
+.form-box-advanced-search .free-text INPUT {
+	margin-top: 3px;
+}
+.form-box-advanced-search .free-text .submit {
+	margin-top: 0;
+}
+.form-box-advanced-search .time-frame DIV {
+	padding: 0;
+	margin: 0;
+}
+.image-archive .media-grid LI {
+	zoom: 1;
+	display: inline;
+	margin-right: 25px;
+}
+.search-heading {
+	zoom: 1;
+}
+.input-description {
+	background: #f2f9ff;
+}
+.job-statistics-definition {
+	background: #f2f9ff;
+}
+#quiz OL .button,
+#quiz .share IFRAME,
+#quiz .share A.button,
+#start_quiz,
+.teaser-list LI,
+.teaser .button {
+	zoom: 1;
+	display: inline;
+}
+
+/* Jobs */
+.featured-company-ad a {
+	overflow: hidden;
+	zoom: 1;
+}
+.job-feature-teaser .job-teaser h2 {
+	top: -30px;
+	right: -374px;
+}
+.job-teaser UL {
+	zoom: 1;
+	margin-top: 0;
+	padding-top: 9px;
+}
+.results ol li, 
+.results ul li {
+	border-bottom: 15px solid #fff;
+}
+.results ol li, 
+.results ul li,
+.job-results ol li,
+.job-results ul li,
+.job-results ol li h2, 
+.job-results ul li h2 {
+	zoom: 1;
+}
+.job-results ol li,
+.job-results ul li {
+	border-bottom: solid 1px #d4d4d4;
+}
+.job-results ol li h2, 
+.job-results ul li h2 {
+	clear: both;
+	margin-bottom: 0;
+	padding-bottom: 2px;
+}
+
+/* Lists */
+.subheader-titles li {
+	zoom: 1;
+}
+.subheader-titles a {
+	display: block;
+	float: left;
+	white-space: nowrap;
+}
+
+/* Corners */
+.internal-ad {
+	border-top: 1px solid #ccc;
+	background: url(../images/rounded-corners.gif) no-repeat -471px 100%;
+    margin: 13px 0 0;
+    padding: 11px 0 3px;
+	
+}
+.internal-ad > DIV {
+	background: #fdf4d7 url(../images/rounded-corners.gif) no-repeat 0 0;
+	padding: 10px 10px 10px 10px;
+	overflow: hidden;
+}
+.article .person {
+ 	background: url(../images/rounded-corners.gif) no-repeat -1884px 3px; 
+}
+
+/* Arbetsgivare */
+.logo-grid a:hover {
+  z-index: 100;
+  -ms-filter: none;
+	filter: none;
+	opacity: none;
+}
+.logo-grid a span.more {
+  z-index: 1000;
+}
+
+/* Logos in header */
+img { -ms-interpolation-mode: bicubic; }
+#header .payoff .sveriges-ingenjorer {
+	background: url(../images/logo_sverigesingenjorer_small.png) no-repeat 0 0;
+	display: block;
+	width: 181px;
+	height: 37px;
+	margin-top: -8px;
+}
+#header .payoff .nyteknik {
+	background: url(../images/logo_nyteknik_small.png) no-repeat 0 0;
+	display: block;
+	width: 89px;
+	height: 21px;
+}
+#header .payoff .nyteknik img,
+#header .payoff .sveriges-ingenjorer img {
+	display: none;
+}

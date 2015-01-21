@@ -1,0 +1,69 @@
+#header {
+	background: #eee url(../images/bg_header_mobile.jpg) top left repeat-x;
+	padding-bottom: 8px;
+	padding-top: 20px;
+	color: black;
+	border-bottom: 1px solid #ccc;
+}
+#header H1 A {
+	display: block;
+	width: 188px;
+	height: 44px;
+	margin: 0;
+	background: url(../images/logo_nyteknik.png) no-repeat 0 50%;
+	text-indent: -9999px;
+}
+#footer .info {
+	background: #0073d2 url(../images/logo_nyteknik_small.png) no-repeat 12px 60%;
+	min-height: 34px;
+}
+#footer .info P {
+	margin-left: 82px;
+	padding-left: 10px;
+	border-left: 1px solid white;
+}
+.widgets .payoff {
+	position: absolute;
+	top: 17px;
+	right: 10px;
+	font-size: 12px;
+	text-align: right;
+	display: none;
+}
+.widgets .payoff .date {
+	color: #999;
+}
+.navigation .next-page,
+.navigation .home,
+A.show-more,
+.poll .question DIV LABEL,
+.breadcrumbs LI.first,
+.article .close-article {
+	background-color: #0084FF;
+}
+A,
+.news-small .visited .article A {
+	color: #0084ff;
+}
+
+SPAN.entry-word{
+  display: none;
+}
+/* Jobb */
+.job-block H1 A {
+    background: url("../images/lediga-jobb_275.png") no-repeat scroll 0 50% transparent;
+    display: block;
+    height: 30px;
+    margin: 0;
+    text-indent: -9999px;
+    width: 275px;
+}
+.job-block A.show-more {
+    background: url("../images/icon_right_white.png") no-repeat scroll 100% 50% #F51500;
+}
+.job A.show-more {
+    background-color: #F51500;
+}
+.rssMobile {
+  display: none;
+}
