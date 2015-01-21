@@ -878,7 +878,7 @@ border: none;
    -o-backface-visibility: hidden;
    backface-visibility: hidden;
  }
-#menu-toggle:checked + #menus {
+#menus + #menu-toggle:checked {
    display: block;
    width: 0;
  }
