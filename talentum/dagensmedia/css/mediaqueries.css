@@ -1074,6 +1074,10 @@ border: none;
    left: 0 !important;
    z-index: 9020;
  }
+ #menus {
+   display: none;
+ }
+
  #menus UL {
    width: 100%;
    margin-left: 0px;
