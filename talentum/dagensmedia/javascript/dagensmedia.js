@@ -283,14 +283,13 @@ function getEventTarget(evt) {
 }
 
 function init() {
-	alert ("Hello World!");
 	document.getElementById("toggle").addEventListener("click", function() {
 	    toggleMenu('menus');
 	}, false);
-	alert ("Hello World!");
 }
 
 	function toggleMenu(id) {
+		alert ("Hello World!");
        var e = document.getElementById(id);
        if(e.style.display == 'block')
           e.style.display = 'none';
