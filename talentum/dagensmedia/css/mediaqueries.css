@@ -777,7 +777,7 @@ border: none;
  /* Temp solution to fix menu issue */
  #ad-content:before {
    content: " ";
-   position: absolute;
+   position: fixed;
    z-index: 0;
    top: 0;
    left: 0;
