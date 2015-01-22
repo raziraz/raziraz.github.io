@@ -282,6 +282,9 @@ function getEventTarget(evt) {
     return targ;
 }
 
+window.onload = function(){
+	console.log("test");
+}
 
 
 
