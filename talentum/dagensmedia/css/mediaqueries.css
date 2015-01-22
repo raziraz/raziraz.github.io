@@ -774,7 +774,6 @@ border: none;
  .padMessage {
    display: none;
  }
-
  #ad-content {
    /* To enable the animation, this code must be added to the "main-content" div, in this case #page */
    -webkit-transform: translate3d(0, 0, 0);
@@ -1032,6 +1031,12 @@ border: none;
    display: none;
  }
  .desktop-only {
+   display: block;
+ }
+ ul.mobile-only {
+   display: block !important;
+ }
+ .desktop-only {
    display: none !important;
  }
  .top-bar {
@@ -1223,6 +1228,9 @@ border: none;
    font-size: 28px;
    margin: 0;
    line-height: 0.85;
+ }
+ ul.mobile-only {
+   display: block;
  }
  .desktop-only {
    display: none;
@@ -1502,6 +1510,9 @@ border: none;
    background-color: #ffffff;
    padding: 30px 0 0 0;
  }
+ ul.mobile-only {
+   display: block !important;
+ }
  .desktop-only {
    display: none !important;
  }
@@ -1729,6 +1740,9 @@ border: none;
    display: block;
    overflow: hidden;
  }*/
+ ul.mobile-only {
+   display: block;
+ }
  .desktop-only {
    display: none;
  }
@@ -1748,7 +1762,8 @@ border: none;
 
 @media screen and (min-width:480px) and (max-width:801px) and
  (orientation : landscape) {
- .mobile-only {
+ ul.mobile-only {
+   display: block !important;
  }
  .desktop-only {
    display: none !important;
@@ -1890,7 +1905,7 @@ width: inherit;
    width: 100%;
    margin-left: 0%;
  }
- .mobile-only {
+ ul.mobile-only {
    display: block;
  }
  .desktop-only {
