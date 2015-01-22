@@ -287,7 +287,6 @@ function init() {
 }
 
 	function toggleMenu() {
-		alert ("Hello World!");
        var e = document.getElementById("menus");
        if(e.style.display == 'block')
           e.style.display = 'none';

@@ -1032,12 +1032,6 @@ border: none;
    display: none;
  }
  .desktop-only {
-   display: block;
- }
- .mobile-only {
-   display: block !important;
- }
- .desktop-only {
    display: none !important;
  }
  .top-bar {
