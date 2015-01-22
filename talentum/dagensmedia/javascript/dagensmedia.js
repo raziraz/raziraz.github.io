@@ -291,7 +291,7 @@ function init() {
        if(e.style.left == '0')
           e.style.left = '-55%';
        else
-          e.style.width = '-55%';
+          e.style.left = '-55%';
     }
 
 document.addEventListener('readystatechange', function() {
