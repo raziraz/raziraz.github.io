@@ -283,9 +283,11 @@ function getEventTarget(evt) {
 }
 
 function init() {
+	alert ("Hello World!");
 	document.getElementById("toggle").addEventListener("click", function() {
 	    toggleMenu('menus');
 	}, false);
+	alert ("Hello World!");
 }
 
 	function toggleMenu(id) {
@@ -298,7 +300,6 @@ function init() {
 
 document.addEventListener('readystatechange', function() {
     if (document.readyState === "complete") {
-    	alert ("Hello World!");
       init();
     }
   });
