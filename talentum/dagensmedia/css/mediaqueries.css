@@ -805,7 +805,7 @@ border: none;
  #menus {
    position: fixed;
    top: 0;
-   left: 0;
+   left: -270px;
    height: 100%;
    background: #3c4451;
    z-index: 0;
