@@ -288,10 +288,10 @@ function init() {
 
 	function toggleMenu() {
        var e = document.getElementById("menus");
-       if(e.style.left == '-270px')
-          e.style.left = '0';
-       else
+       if(e.style.left == '0px')
           e.style.left = '-270px';
+       else
+          e.style.left = '0px';
     }
 
 document.addEventListener('readystatechange', function() {
