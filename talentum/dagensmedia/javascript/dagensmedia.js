@@ -282,8 +282,15 @@ function getEventTarget(evt) {
     return targ;
 }
 
-	window.alert("Test");
+document.getElementById("menu-toggle").addEventListener("click", toggleMenu);
 
+	function toggleMenu(id) {
+       var e = document.getElementById(id);
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+    }
 
 
 

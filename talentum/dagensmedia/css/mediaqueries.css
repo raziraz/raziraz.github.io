@@ -774,19 +774,7 @@ border: none;
  .padMessage {
    display: none;
  }
- /* Temp solution to fix menu issue */
- #ad-content:before {
-   content: " ";
-   position: fixed;
-   z-index: 0;
-   top: 0;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   height: 100%;
-   display: block;
-   background-color: #fff;
- }
+
  #ad-content {
    /* To enable the animation, this code must be added to the "main-content" div, in this case #page */
    -webkit-transform: translate3d(0, 0, 0);
