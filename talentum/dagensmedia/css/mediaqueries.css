@@ -807,6 +807,10 @@ border: none;
    z-index: -1000;
    margin: 0;
    width: 80%;
+     -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
    /*overflow: scroll;*/
  }
  #menus ul {
