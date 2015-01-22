@@ -289,9 +289,9 @@ function init() {
 	function toggleMenu() {
        var e = document.getElementById("menus");
        if(e.style.left == '0')
-          e.style.left = '-55%';
+          e.style.left = '-270px';
        else
-          e.style.left = '-55%';
+          e.style.left = '0';
     }
 
 document.addEventListener('readystatechange', function() {
