@@ -282,7 +282,7 @@ function getEventTarget(evt) {
     return targ;
 }
 
-document.getElementById("menu-toggle").addEventListener("click", toggleMenu);
+document.getElementById("menu-toggle").addEventListener("click", toggleMenu("menus"));
 
 	function toggleMenu(id) {
        var e = document.getElementById(id);
