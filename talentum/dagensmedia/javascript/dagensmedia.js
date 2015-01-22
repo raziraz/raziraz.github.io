@@ -282,9 +282,8 @@ function getEventTarget(evt) {
     return targ;
 }
 
-window.onload = function(){
 	window.alert(Test);
-}
+
 
 
 
