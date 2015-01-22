@@ -1032,12 +1032,12 @@ border: none;
    /*width: 95%;*/
  }
  .mobile-only {
-   display: none;
+   display: block;
  }
  .desktop-only {
    display: block;
  }
- ul.mobile-only {
+ .mobile-only {
    display: block !important;
  }
  .desktop-only {

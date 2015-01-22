@@ -288,10 +288,10 @@ function init() {
 
 	function toggleMenu() {
        var e = document.getElementById("menus");
-       if(e.style.display == 'block')
-          e.style.display = 'none';
+       if(e.style.width == '100%')
+          e.style.width = '0';
        else
-          e.style.display = 'block';
+          e.style.width = '100%';
     }
 
 document.addEventListener('readystatechange', function() {
