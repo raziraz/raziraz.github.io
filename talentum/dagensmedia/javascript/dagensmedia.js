@@ -298,6 +298,7 @@ function init() {
 
 document.addEventListener('readystatechange', function() {
     if (document.readyState === "complete") {
+    	alert ("Hello World!");
       init();
     }
   });
