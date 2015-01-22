@@ -1224,9 +1224,6 @@ border: none;
    margin: 0;
    line-height: 0.85;
  }
- .mobile-only {
-   display: block;
- }
  .desktop-only {
    display: none;
  }
@@ -1505,9 +1502,6 @@ border: none;
    background-color: #ffffff;
    padding: 30px 0 0 0;
  }
- .mobile-only {
-   display: block !important;
- }
  .desktop-only {
    display: none !important;
  }
@@ -1735,9 +1729,6 @@ border: none;
    display: block;
    overflow: hidden;
  }*/
- .mobile-only {
-   display: block;
- }
  .desktop-only {
    display: none;
  }
@@ -1758,7 +1749,6 @@ border: none;
 @media screen and (min-width:480px) and (max-width:801px) and
  (orientation : landscape) {
  .mobile-only {
-   display: block !important;
  }
  .desktop-only {
    display: none !important;
