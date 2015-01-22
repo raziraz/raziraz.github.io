@@ -282,9 +282,11 @@ function getEventTarget(evt) {
     return targ;
 }
 
-document.getElementById("menu-toggle").addEventListener("click", function() {
-    toggleMenu('menus');
-}, false);
+function init() {
+	document.getElementById("menu-toggle").addEventListener("click", function() {
+	    toggleMenu('menus');
+	}, false);
+}
 
 	function toggleMenu(id) {
        var e = document.getElementById(id);
@@ -294,7 +296,11 @@ document.getElementById("menu-toggle").addEventListener("click", function() {
           e.style.display = 'block';
     }
 
-
+document.addEventListener('readystatechange', function() {
+    if (document.readyState === "complete") {
+      init();
+    }
+  });
 
 
 
