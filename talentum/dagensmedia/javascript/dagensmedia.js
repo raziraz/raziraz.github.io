@@ -283,7 +283,7 @@ function getEventTarget(evt) {
 }
 
 window.onload = function(){
-	console.log("test");
+	window.alert(Test);
 }
 
 
