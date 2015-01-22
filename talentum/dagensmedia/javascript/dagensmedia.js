@@ -282,7 +282,7 @@ function getEventTarget(evt) {
     return targ;
 }
 
-	window.alert(Test);
+	window.alert("Test");
 
 
 
