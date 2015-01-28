@@ -1744,8 +1744,8 @@ UL.tools {
    margin: 0 7px 3px 0;
    text-align: left;
 }
-.article .additional-content UL.tools LI {
-   margin-right: 9px;
+.article .additional-content UL.tools LI:first-child {
+   margin-right: 10px;
 }
 
 .page-lediga-jobb .section-heading {
