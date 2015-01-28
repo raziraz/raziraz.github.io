@@ -1775,6 +1775,18 @@ UL.tools {
    text-indent: -9999px;
 }
 
+//NEW TOOL ICONS
+
+.article .additional-content UL.tools .toggle-recommend {
+    background: transparent url(../images/email-share-icon.png) no-repeat scroll 0 0;
+}
+.article .additional-content UL.tools .toggle-print {
+    background: transparent url(../images/printer-icon.png) no-repeat scroll 0 0;
+}
+.article .additional-content UL.tools .toggle-text-size {
+    background: transparent url(../images/font-size-icon.png) no-repeat scroll 0 0;
+}
+
 .article .additional-content UL.tools .print,
 .page-lediga-jobb .additional-content UL.tools .print {
    background-position: 0 -167px;
