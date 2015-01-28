@@ -1418,26 +1418,26 @@ UL.tools {
 {
     background: #222 url(../images/icons.gif) no-repeat scroll 0 0;
     display: block;
-    height: 18px;
-    width: 18px;
+    height: 22px;
+    width: 22px;
     text-indent: -9999px;
+    background-size: 18px 18px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
 }
 
 /* NEW TOOL ICONS */
 
 .article .additional-content UL.tools .toggle-recommend {
     background: transparent url(../images/email-share-icon.png) no-repeat scroll 0 0;
-    background-size: 100%;
 }
 .article .additional-content UL.tools .print {
     background: transparent url(../images/printer-icon.png) no-repeat scroll 0 0;
-    background-size: 100%;
 }
 .article .additional-content UL.tools .toggle-text-size {
     background: transparent url(../images/font-size-icon.png) no-repeat scroll 0 0;
-    height: 18px;
-    width: 24px;
-    background-size: 100%;
+    background-size: 18px 24px;
 }
 
 .dm-jobb .additional-content .addthis_toolbox {
