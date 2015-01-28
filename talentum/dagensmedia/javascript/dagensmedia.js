@@ -282,6 +282,7 @@ function getEventTarget(evt) {
     return targ;
 }
 
+//Mobile menu
 function init() {
 	document.getElementById("toggle").addEventListener("click", toggleMenu);
 }
