@@ -1780,9 +1780,11 @@ UL.tools {
 
 .article .additional-content UL.tools .toggle-recommend {
     background: transparent url(../images/email-share-icon.png) no-repeat scroll 0 0;
+    background-size: 100%;
 }
 .article .additional-content UL.tools .print {
     background: transparent url(../images/printer-icon.png) no-repeat scroll 0 0;
+    background-size: 100%;
 }
 .article .additional-content UL.tools .toggle-text-size {
     background: transparent url(../images/font-size-icon.png) no-repeat scroll 0 0;
