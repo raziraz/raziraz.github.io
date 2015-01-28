@@ -309,7 +309,7 @@ body.resp #header .tools{
  }
  #menus LI {
    float: left;
-   margin: 0 9px 0 0;
+   margin: 0;
    list-style-type: none;
    width: 100%;
  }
@@ -317,7 +317,7 @@ body.resp #header .tools{
    float: left;
    margin: 0 9px 0 0;
    list-style-type: none;
-   width: 65%;
+   width: 100%;
    border: none !important;
 
  }
@@ -934,7 +934,7 @@ body.open #ad-content {
    padding: 10px;
    font-size: 10px;
    position: absolute;
-   right: 80px;
+   left: 160px;
    top: 0;
    width: 36px;
    background: none;
