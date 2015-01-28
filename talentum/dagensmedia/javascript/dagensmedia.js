@@ -307,6 +307,7 @@ function removeClass(ele,cls) {
  	var ele = document.getElementsByTagName('body')[0];
  		if (hasClass(ele, "open")) {
  			addClass(ele, "close");
+ 			removeClass(ele, "open");
  		}
  		else {
  			addClass(ele, "open");
