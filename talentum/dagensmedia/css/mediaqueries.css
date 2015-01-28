@@ -808,13 +808,14 @@ border: none;
    left: -270px;
    height: 100%;
    background: #3c4451;
-   z-index: 40;
+   z-index: 0;
    margin: 0;
-   width: 270px;
+   width: 80%;
    -webkit-transition: all 200ms ease;
   -moz-transition: all 200ms ease;
   -o-transition: all 200ms ease;
   transition: all 200ms ease;
+   /*overflow: scroll;*/
  }
  #menus ul {
    list-style: none;
@@ -834,20 +835,31 @@ border: none;
    -webkit-box-shadow: 2px 1px 3px 1px #4C5666;
    box-shadow: 2px 1px 3px 1px #4C5666;
  }
+ #menu::-webkit-scrollbar {
+   width: 12px;
+ }
+ #menu::-webkit-scrollbar-track {
+   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+   border-radius: 10px;
+ }
+ #menu::-webkit-scrollbar-thumb {
+   border-radius: 10px;
+   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+   background-color: white;
+   border: 1px solid black;
+ }
 
  a#mobile-menu-button {
    width: 100%;
    height: auto;
  }
-   #ad-content {
-   position: relative;
-   z-index: 10;
+ #menu-toggle:checked ~ #ad-content {
    overflow-scrolling: none;
-   /*-webkit-transform: translate3d(55%, 0, 0);
+   -webkit-transform: translate3d(55%, 0, 0);
    -moz-transform: translate3d(55%, 0, 0);
    -ms-transform: translate3d(55%, 0, 0);
    -o-transform: translate3d(55%, 0, 0);
-   transform: translate3d(55%, 0, 0);*/
+   transform: translate3d(55%, 0, 0);
    -webkit-backface-visibility: hidden;
    -moz-backface-visibility: hidden;
    -ms-backface-visibility: hidden;
@@ -858,7 +870,7 @@ border: none;
  #menu-toggle ~ #ad-content {
    left: 0 !important;
    /*  overflow-scrolling: none; */
-  /* -webkit-transform: translate3d(0, 0, 0);
+   -webkit-transform: translate3d(0, 0, 0);
    -moz-transform: translate3d(0, 0, 0);
    -ms-transform: translate3d(0, 0, 0);
    -o-transform: translate3d(0, 0, 0);
@@ -872,7 +884,7 @@ border: none;
    -moz-backface-visibility: hidden;
    -ms-backface-visibility: hidden;
    -o-backface-visibility: hidden;
-   backface-visibility: hidden;*/
+   backface-visibility: hidden;
  }
  #menus ul li:hover a {
    cursor: pointer;

@@ -282,24 +282,58 @@ function getEventTarget(evt) {
     return targ;
 }
 
-//Mobile menu
-function init() {
-	document.getElementById("toggle").addEventListener("click", toggleMenu);
+
+// Mobile menu V2
+function hasClass(ele,cls) {
+   	return !!ele.className.match(new RegExp('(\\s|^)'+cls+'(\\s|$)'));
 }
 
-	function toggleMenu() {
-       var e = document.getElementById("menus");
-       if(e.style.left == '0px')
-          e.style.left = '-270px';
-       else
-          e.style.left = '0px';
-    }
+function addClass(ele,cls) {
+	if (!hasClass(ele,cls)) ele.className += " "+cls;
+}
+
+function removeClass(ele,cls) {
+	if (hasClass(ele,cls)) {
+	    var reg = new RegExp('(\\s|^)'+cls+'(\\s|$)');
+	   ele.className=ele.className.replace(reg,' ');
+	   }
+	 }
+
+ function init() {
+ 	document.getElementById("toggle").addEventListener("click", toggleMenu);
+ }
+
+ function toggleMenu() {
+ 	var ele = document.getElementsByTagName('body')[0];
+ 		if hasClass(ele, "open"); {
+ 			addClass(ele, "close");
+ 		}
+ 		else {
+ 			addClass(ele, "open");
+ 			removeClass(ele, "close");
+ 		}
+ 	}
+
+	
+
+//Mobile menu V1
+// function init() {
+// 	document.getElementById("toggle").addEventListener("click", toggleMenu);
+// }
+
+// 	function toggleMenu() {
+//        var e = document.getElementById("menus");
+//        if(e.style.left == '0px')
+//           e.style.left = '-270px';
+//        else
+//           e.style.left = '0px';
+//     }
 
 document.addEventListener('readystatechange', function() {
     if (document.readyState === "complete") {
-      init();
-    }
-  });
+       init();
+     }
+   });
 
 
 
