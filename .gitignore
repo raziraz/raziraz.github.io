@@ -5,6 +5,46 @@ talentum/dagensmedia/javascript/2012_s_code_global_test.js
 
 talentum/dagensmedia/javascript/iepngfix/iepngfix.htc
 
-talentum/master/.svn/format
+talentum/master/*
 
 talentum/master/trunk/src/test/talentum/util/StringUtilTest.java
+
+talentum/ingenjorskarriar/css/.svn/pristine/b1/b1200780ca1dbeb33b1c6a64efceaa7f87b1fe97.svn-base
+
+talentum/master/.svn/entries
+
+*.svn-base
+
+*.db
+
+*.jsp
+
+*.tld
+
+*.xml
+
+talentum/master/tags/1.1/.project
+
+*.properties
+
+*.jar
+
+*.html
+
+talentum/master/tags/1.4/publication/template/www/javascript/poll.js
+
+*.tag
+
+*.xsl
+
+*.java
+
+*.gif
+
+*.htc
+
+talentum/master/tags/1.8b/.project
+
+talentum/master/tags/1.8b/.classpath
+
+talentum/ingenjorskarriar/css/.svn/wc.db

@@ -1772,6 +1772,7 @@ UL.tools {
    display: block;
    height: 18px;
    width: 18px;
+   background-size: 100%;
    text-indent: -9999px;
 }
 
@@ -1780,7 +1781,7 @@ UL.tools {
 .article .additional-content UL.tools .toggle-recommend {
     background: transparent url(../images/email-share-icon.png) no-repeat scroll 0 0;
 }
-.article .additional-content UL.tools .toggle-print {
+.article .additional-content UL.tools .print {
     background: transparent url(../images/printer-icon.png) no-repeat scroll 0 0;
 }
 .article .additional-content UL.tools .toggle-text-size {
