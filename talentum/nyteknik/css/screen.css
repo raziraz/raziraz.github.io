@@ -1770,8 +1770,8 @@ UL.tools {
 .twitter {
    background: transparent url(../images/icons.gif) no-repeat scroll 0 0;
    display: block;
-   height: 16px;
-   width: 16px;
+   height: 18px;
+   width: 18px;
    text-indent: -9999px;
 }
 
@@ -1785,6 +1785,8 @@ UL.tools {
 }
 .article .additional-content UL.tools .toggle-text-size {
     background: transparent url(../images/font-size-icon.png) no-repeat scroll 0 0;
+    height: 18px;
+    width: 24px;
 }
 
 .article .additional-content UL.tools .print,
@@ -1796,8 +1798,6 @@ UL.tools {
 .page-lediga-jobb .additional-content UL.tools .toggle-recommend {
    background-position: 0 -195px;
 }
-
-.article .additional-content UL.tools .toggle-text-size,
 .page-lediga-jobb .additional-content UL.tools .toggle-text-size {
    background-position: 0 -222px;
 }
