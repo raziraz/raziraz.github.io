@@ -1430,13 +1430,13 @@ UL.tools {
 /* NEW TOOL ICONS */
 
 .article .additional-content UL.tools .toggle-recommend {
-    background: transparent url(../images/email-share-icon.png) no-repeat scroll 0 0;
+    background: url(../images/email-share-icon.png) no-repeat scroll 0 0;
 }
 .article .additional-content UL.tools .print {
-    background: transparent url(../images/printer-icon.png) no-repeat scroll 0 0;
+    background: url(../images/printer-icon.png) no-repeat scroll 0 0;
 }
 .article .additional-content UL.tools .toggle-text-size {
-    background: transparent url(../images/font-size-icon.png) no-repeat scroll 0 0;
+    background: url(../images/font-size-icon.png) no-repeat scroll 0 0;
     background-size: 18px 24px;
 }
 
