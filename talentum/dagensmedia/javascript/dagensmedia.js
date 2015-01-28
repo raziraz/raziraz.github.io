@@ -283,7 +283,7 @@ function getEventTarget(evt) {
 }
 
 
-// Mobile menu V2
+// Mobile menu
 function hasClass(ele,cls) {
    	return !!ele.className.match(new RegExp('(\\s|^)'+cls+'(\\s|$)'));
 }
@@ -315,26 +315,11 @@ function removeClass(ele,cls) {
  		}
  	}
 
-	
-
-//Mobile menu V1
-// function init() {
-// 	document.getElementById("toggle").addEventListener("click", toggleMenu);
-// }
-
-// 	function toggleMenu() {
-//        var e = document.getElementById("menus");
-//        if(e.style.left == '0px')
-//           e.style.left = '-270px';
-//        else
-//           e.style.left = '0px';
-//     }
-
-document.addEventListener('readystatechange', function() {
-    if (document.readyState === "complete") {
-       init();
-     }
-   });
+	document.addEventListener('readystatechange', function() {
+    	if (document.readyState === "complete") {
+       		init();
+    	 }
+   	});
 
 
 
