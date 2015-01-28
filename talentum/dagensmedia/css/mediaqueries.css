@@ -811,11 +811,11 @@ border: none;
    z-index: 0;
    margin: 0;
    width: 195px;
-   -webkit-transition: all 200ms ease;
-  -moz-transition: all 200ms ease;
-  -o-transition: all 200ms ease;
-  transition: all 200ms ease;
-   /*overflow: scroll;*/
+   -webkit-transition: all 100ms ease;
+  -moz-transition: all 100ms ease;
+  -o-transition: all 100ms ease;
+  transition: all 100ms ease;
+   overflow-x: hidden;
  }
  body.open #menus {
    left: 0;
@@ -859,10 +859,10 @@ border: none;
 #ad-content {
    position: relative;
    left: 0;
-   -webkit-transition: all 200ms ease;
-   -moz-transition: all 200ms ease;
-   -o-transition: all 200ms ease;
-   transition: all 200ms ease;
+   -webkit-transition: all 100ms ease;
+   -moz-transition: all 100ms ease;
+   -o-transition: all 100ms ease;
+   transition: all 100ms ease;
 }
 body.open #ad-content {
    left: 195px;
