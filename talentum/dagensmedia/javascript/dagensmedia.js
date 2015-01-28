@@ -310,8 +310,8 @@ function removeClass(ele,cls) {
  			removeClass(ele, "open");
  		}
  		else {
- 			addClass(ele, "open");
  			removeClass(ele, "close");
+ 			addClass(ele, "open");
  		}
  	}
 
