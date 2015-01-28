@@ -805,12 +805,12 @@ border: none;
  #menus {
    position: fixed;
    top: 0;
-   left: -270px;
+   left: -195px;
    height: 100%;
    background: #3c4451;
    z-index: 0;
    margin: 0;
-   width: 270px;
+   width: 195px;
    -webkit-transition: all 200ms ease;
   -moz-transition: all 200ms ease;
   -o-transition: all 200ms ease;
@@ -865,7 +865,7 @@ border: none;
    transition: all 200ms ease;
 }
 body.open #ad-content {
-   left: 270px;
+   left: 195px;
 }
  
 /* #menu-toggle:checked ~ #ad-content {
@@ -912,12 +912,12 @@ body.open #ad-content {
  #menus ul li a {
    padding: 10px 10px !important;
    margin: -1px auto;
-   width: 65%;
+   width: 100%;
    font-size: 17px;
- font-weight: normal;
- background: none !important;
- color: white !important;
- box-shadow: inset 0 -1px rgba(255,255,255,.275);
+   font-weight: normal;
+   background: none !important;
+   color: white !important;
+   box-shadow: inset 0 -1px rgba(255,255,255,.275);
    border: none;
  }
  #menus .selected {
