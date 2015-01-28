@@ -1776,7 +1776,7 @@ UL.tools {
    text-indent: -9999px;
 }
 
-//NEW TOOL ICONS
+/* NEW TOOL ICONS */
 
 .article .additional-content UL.tools .toggle-recommend {
     background: transparent url(../images/email-share-icon.png) no-repeat scroll 0 0;
