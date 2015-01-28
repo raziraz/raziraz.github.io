@@ -1411,8 +1411,8 @@ UL.tools {
     margin: 0 3px 3px 0;
     text-align: left;
     display: block;
-    height: 22px;
-    width: 22px;
+    height: 30px;
+    width: 30px;
     background-color: #222;
     -moz-border-radius: 3px;
     border-radius: 3px;
@@ -1424,8 +1424,8 @@ UL.tools {
 .delicious, .digg, .twitter
 {
     text-indent: -9999px;
-    width: 22px;
-    height: 22px;
+    width: 30px;
+    height: 30px;
     display: block;
     background-size: 18px 18px;
 }
@@ -1434,13 +1434,18 @@ UL.tools {
 
 .article .additional-content UL.tools .toggle-recommend {
     background: transparent url(../images/email-share-icon.png) no-repeat;
+    background-size: 18px 18px;
+    background-position: center center;
 }
 .article .additional-content UL.tools .print {
     background: transparent url(../images/printer-icon.png) no-repeat;
+    background-size: 18px 18px;
+    background-position: center center;
 }
 .article .additional-content UL.tools .toggle-text-size {
     background: transparent url(../images/font-size-icon.png) no-repeat;
     background-size: 18px 24px;
+    background-position: center center;
 }
 
 .dm-jobb .additional-content .addthis_toolbox {
