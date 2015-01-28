@@ -1423,23 +1423,23 @@ UL.tools {
 .article .additional-content UL.tools .toggle-text-size, .facebook,
 .delicious, .digg, .twitter
 {
-    background: transparent url(../images/icons.gif) no-repeat scroll 0 0;
     text-indent: -9999px;
     width: 22px;
     height: 22px;
+    display: block;
     background-size: 18px 18px;
 }
 
 /* NEW TOOL ICONS */
 
 .article .additional-content UL.tools .toggle-recommend {
-    background: transparent url(../images/email-share-icon.png) no-repeat scroll 0 0;
+    background: transparent url(../images/email-share-icon.png) no-repeat;
 }
 .article .additional-content UL.tools .print {
-    background: transparent url(../images/printer-icon.png) no-repeat scroll 0 0;
+    background: transparent url(../images/printer-icon.png) no-repeat;
 }
 .article .additional-content UL.tools .toggle-text-size {
-    background: transparent url(../images/font-size-icon.png) no-repeat scroll 0 0;
+    background: transparent url(../images/font-size-icon.png) no-repeat;
     background-size: 18px 24px;
 }
 
