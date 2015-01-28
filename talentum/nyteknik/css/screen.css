@@ -1741,8 +1741,11 @@ UL.tools {
 .page-lediga-jobb .additional-content UL.tools LI {
    position: relative;
    float: left;
-   margin: 0 4px 3px 0;
+   margin: 0 7px 3px 0;
    text-align: left;
+}
+.article .additional-content UL.tools LI {
+   margin-right: 9px;
 }
 
 .page-lediga-jobb .section-heading {
@@ -1791,6 +1794,11 @@ UL.tools {
     height: 18px;
     width: 24px;
     background-size: 100%;
+}
+
+/* TEMP */  
+.addthis_toolbox {
+   display: none;
 }
 
 .page-lediga-jobb .additional-content UL.tools .print {
