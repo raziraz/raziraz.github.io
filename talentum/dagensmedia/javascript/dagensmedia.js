@@ -305,7 +305,7 @@ function removeClass(ele,cls) {
 
  function toggleMenu() {
  	var ele = document.getElementsByTagName('body')[0];
- 		if hasClass(ele, "open"); {
+ 		if hasClass(ele, "open") {
  			addClass(ele, "close");
  		}
  		else {
