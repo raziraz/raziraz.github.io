@@ -1444,7 +1444,7 @@ UL.tools {
 }
 .article .additional-content UL.tools .toggle-text-size {
     background: transparent url(../images/font-size-icon.png) no-repeat;
-    background-size: 18px 24px;
+    background-size: 22px 18px;
     background-position: center center;
 }
 
@@ -2604,8 +2604,8 @@ INPUT[type="checkbox"]
 }
 
 .tools .tooltipElm {
-    top: 17px;
-    margin: 0 0 0 -28px;
+    top: 28px;
+    margin: 0 0 0 -40px;
 }
 
 .media-tooltip {
