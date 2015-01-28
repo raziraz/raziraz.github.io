@@ -1416,7 +1416,7 @@ UL.tools {
 .article .additional-content UL.tools .toggle-text-size, .facebook,
 .delicious, .digg, .twitter
 {
-    background: #222 url(../images/icons.gif) no-repeat scroll 0 0;
+    background-color: #222;
     display: block;
     height: 22px;
     width: 22px;
