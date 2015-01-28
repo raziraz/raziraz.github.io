@@ -1410,33 +1410,36 @@ UL.tools {
     float: left;
     margin: 0 3px 3px 0;
     text-align: left;
+    display: block;
+    height: 22px;
+    width: 22px;
+    background-color: #222;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border-radius: 3px;
 }
 
 .article .additional-content UL.tools .toggle-recommend, .article .additional-content UL.tools .print,
 .article .additional-content UL.tools .toggle-text-size, .facebook,
 .delicious, .digg, .twitter
 {
-    background-color: #222;
-    display: block;
-    height: 22px;
-    width: 22px;
+    background: transparent url(../images/icons.gif) no-repeat scroll 0 0;
     text-indent: -9999px;
+    width: 22px;
+    height: 22px;
     background-size: 18px 18px;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
-    border-radius: 3px;
 }
 
 /* NEW TOOL ICONS */
 
 .article .additional-content UL.tools .toggle-recommend {
-    background: url(../images/email-share-icon.png) no-repeat scroll 0 0;
+    background: transparent url(../images/email-share-icon.png) no-repeat scroll 0 0;
 }
 .article .additional-content UL.tools .print {
-    background: url(../images/printer-icon.png) no-repeat scroll 0 0;
+    background: transparent url(../images/printer-icon.png) no-repeat scroll 0 0;
 }
 .article .additional-content UL.tools .toggle-text-size {
-    background: url(../images/font-size-icon.png) no-repeat scroll 0 0;
+    background: transparent url(../images/font-size-icon.png) no-repeat scroll 0 0;
     background-size: 18px 24px;
 }
 
