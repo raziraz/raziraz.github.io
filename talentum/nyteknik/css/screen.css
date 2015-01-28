@@ -1788,14 +1788,12 @@ UL.tools {
     background: transparent url(../images/font-size-icon.png) no-repeat scroll 0 0;
     height: 18px;
     width: 24px;
+    background-size: 100%;
 }
 
-.article .additional-content UL.tools .print,
 .page-lediga-jobb .additional-content UL.tools .print {
    background-position: 0 -167px;
 }
-
-.article .additional-content UL.tools .toggle-recommend,
 .page-lediga-jobb .additional-content UL.tools .toggle-recommend {
    background-position: 0 -195px;
 }

@@ -48,3 +48,7 @@ talentum/master/tags/1.8b/.project
 talentum/master/tags/1.8b/.classpath
 
 talentum/ingenjorskarriar/css/.svn/wc.db
+
+*.db
+
+talentum/ingenjorskarriar/css/.svn/wc.db
