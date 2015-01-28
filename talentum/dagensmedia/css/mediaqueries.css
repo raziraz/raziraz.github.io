@@ -810,12 +810,15 @@ border: none;
    background: #3c4451;
    z-index: 0;
    margin: 0;
-   width: 80%;
+   width: 270px;
    -webkit-transition: all 200ms ease;
   -moz-transition: all 200ms ease;
   -o-transition: all 200ms ease;
   transition: all 200ms ease;
    /*overflow: scroll;*/
+ }
+ body.open #menus {
+   left: 0;
  }
  #menus ul {
    list-style: none;
@@ -852,8 +855,20 @@ border: none;
  a#mobile-menu-button {
    width: 100%;
    height: auto;
- }
- #menu-toggle:checked ~ #ad-content {
+}
+#ad-content {
+   position: relative;
+   left: 0;
+   -webkit-transition: all 200ms ease;
+   -moz-transition: all 200ms ease;
+   -o-transition: all 200ms ease;
+   transition: all 200ms ease;
+}
+body.open #ad-content {
+   left: 270px;
+}
+ 
+/* #menu-toggle:checked ~ #ad-content {
    overflow-scrolling: none;
    -webkit-transform: translate3d(55%, 0, 0);
    -moz-transform: translate3d(55%, 0, 0);
@@ -868,9 +883,9 @@ border: none;
    pointer-events: none;
  }
  #menu-toggle ~ #ad-content {
-   left: 0 !important;
+  /* left: 0 !important;
    /*  overflow-scrolling: none; */
-   -webkit-transform: translate3d(0, 0, 0);
+/*   -webkit-transform: translate3d(0, 0, 0);
    -moz-transform: translate3d(0, 0, 0);
    -ms-transform: translate3d(0, 0, 0);
    -o-transform: translate3d(0, 0, 0);
@@ -885,7 +900,7 @@ border: none;
    -ms-backface-visibility: hidden;
    -o-backface-visibility: hidden;
    backface-visibility: hidden;
- }
+ }*/
  #menus ul li:hover a {
    cursor: pointer;
    /*  background: #DA2128;*/
