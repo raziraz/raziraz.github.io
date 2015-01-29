@@ -198,6 +198,9 @@ INPUT.submit:hover {
     margin: 10px 0 0 0;
     overflow: hidden;
 }
+.columns-3-1.first {
+    margin-top: 6px;
+}
 
 .column1, .column2, .column3, .column4 {
     overflow: hidden;
