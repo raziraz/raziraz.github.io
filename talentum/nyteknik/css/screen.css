@@ -6053,14 +6053,14 @@ Gamla jobb slut*/
 }
 
 #footer .general-links .content {
+   background: url(../images/footer_border.gif) repeat-y 142px 100%;
    overflow: hidden;
 }
 
 #footer .general-links .content DIV {
    float: left;
-   width: 150px;
-   margin: 0 20px 0 0px;
-   border-left: 1px solid #0e5d98;
+   width: 143px;
+   margin: 0 23px 0 0px;
 }
 
 #footer .general-links .content DIV.first {
