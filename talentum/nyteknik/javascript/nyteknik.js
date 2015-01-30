@@ -75,6 +75,7 @@ var NyTeknik = function() {
                                });
         Talentum.stickyTop.init();
         Talentum.pushResponsive.init();
+        Talentum.moveJobBox.init();
         
         Talentum.addOnDOMReady( function() {
                                Talentum.toggleAnything({
@@ -356,6 +357,26 @@ NyTeknik.tabbedBox = function() {
     };
 }();
 
+/*Move company info box in mobile view*/
+NyTeknik.moveJobBox = function() {
+    var DOMReady = function() {
+        $("body.page-lediga-jobb.resp").each(function() {
+                                  var jobPage = $(this);
+                                  var boxInfo = jobPage.elmsByClass(".quickinfo:nth-child(2)");
+                                  var elmPos = jobPage.elmsByClass(".article-bread");
+                                  var content = boxInfo.innerHTML;                                  
+                                  content.insertBefore(elmPos);
+                                  }
+                                  });
+    };
+    
+    return {
+    init: function() {
+        Talentum.addOnDOMReady(DOMReady);
+    }
+    };
+}();
+
 
 /**
  * Tabbed media teaser box
@@ -411,7 +432,7 @@ NyTeknik.mediaTeaser = function() {
         tabBox.parts[0].parentNode.insertBefore(tabBox.menu, tabBox.parts[0]);
         
         tabBox.elmsByClass("inner-" + triggerClass).each(function() {
-                                                         construct(this, "inner-" + triggerClass, "inner-" + partClass);	
+                                                         construct(this, "inner-" + triggerClass, "inner-" + partClass);  
                                                          });
         
         toggle(firstTab, false);
@@ -477,10 +498,10 @@ NyTeknik.jobSearch = function() {
                                                                        });
                 } else {
                     $(fieldset).cssSelect(".select-all")[0].checked = "";
-                }				
+                }       
             }
         }
-        return true;		
+        return true;    
     };
     
     return {
@@ -495,6 +516,43 @@ NyTeknik.jobSearch = function() {
     };
 }();
 
+// Mobile menu
+function hasClass(ele,cls) {
+    return !!ele.className.match(new RegExp('(\\s|^)'+cls+'(\\s|$)'));
+}
+
+function addClass(ele,cls) {
+  if (!hasClass(ele,cls)) ele.className += " "+cls;
+}
+
+function removeClass(ele,cls) {
+  if (hasClass(ele,cls)) {
+      var reg = new RegExp('(\\s|^)'+cls+'(\\s|$)');
+     ele.className=ele.className.replace(reg,' ');
+     }
+   }
+
+ function init() {
+  document.getElementById("toggle").addEventListener("click", toggleMenu);
+ }
+
+ function toggleMenu() {
+  var ele = document.getElementsByTagName('body')[0];
+    if (hasClass(ele, "open")) {
+      addClass(ele, "close");
+      removeClass(ele, "open");
+    }
+    else {
+      removeClass(ele, "close");
+      addClass(ele, "open");
+    }
+  }
+
+  document.addEventListener('readystatechange', function() {
+      if (document.readyState === "complete") {
+          init();
+       }
+    });
 
 NyTeknik.sIFR = function() {
     var options;
@@ -541,7 +599,7 @@ NyTeknik.sIFR = function() {
                                                  if (parent.hasClass(exclude[i])) {
                                                  return;
                                                  }
-                                                 }			
+                                                 }      
                                                  }
                                                  var els = [];
                                                  els[0] = $(this);
