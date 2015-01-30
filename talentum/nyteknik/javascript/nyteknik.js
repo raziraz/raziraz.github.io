@@ -366,7 +366,6 @@ NyTeknik.moveJobBox = function() {
                                   var elmPos = jobPage.elmsByClass(".article-bread");
                                   var content = boxInfo.innerHTML;                                  
                                   content.insertBefore(elmPos);
-                                  }
                                   });
     };
     
