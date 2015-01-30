@@ -5176,7 +5176,9 @@ body .box H2 { /* 'Body' for specificity */
 .teaser-group {
     overflow: hidden;
 }
-
+.size3 .teaser-group-heading {
+    margin-bottom: 0;
+}
 .teaser-group-heading {
     padding: 4px 7px;
     background: #333;
@@ -5184,7 +5186,7 @@ body .box H2 { /* 'Body' for specificity */
     color: white;
     font-size: 15px;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .has-teaser-group-heading .image, .has-teaser-group-heading .media {
