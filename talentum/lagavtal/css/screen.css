@@ -2731,7 +2731,7 @@ P .entry-word {
   margin-top: -10px;
 }
 .has-teaser-group-heading .image.image-left,.has-teaser-group-heading .image-medium {
-  margin-top: -5px;
+  margin-top: 0;
 }
 
 .has-teaser-group-heading .subteaser .image,.has-teaser-group-heading .pullteaser .image
