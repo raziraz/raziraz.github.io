@@ -2728,7 +2728,7 @@ P .entry-word {
 }
 
 .has-teaser-group-heading .image,.has-teaser-group-heading .media {
-  margin-top: 0px;
+  margin-top: -10px;
 }
 
 .has-teaser-group-heading .subteaser .image,.has-teaser-group-heading .pullteaser .image
