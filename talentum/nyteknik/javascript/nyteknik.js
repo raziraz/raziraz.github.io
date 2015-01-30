@@ -362,8 +362,6 @@ NyTeknik.moveJobBox = function() {
     var DOMReady = function() {
         $(".body.page-lediga-jobb.resp .quickinfo:nth(2)").insertBefore(".body.page-lediga-jobb.resp .article-bread");
                                   };
-    };
-    
     return {
     init: function() {
         Talentum.addOnDOMReady(DOMReady);
