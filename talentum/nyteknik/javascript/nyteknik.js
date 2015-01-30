@@ -362,8 +362,8 @@ NyTeknik.moveJobBox = function() {
     var DOMReady = function() {
         $("body.page-lediga-jobb.resp").each(function() {
                                   var jobPage = $(this);
-                                  jobPage.addClass("test");
-                                  var boxInfo = jobPage.elmsByClass(".quickinfo:nth-child(2)");
+                                  var boxInfo = jobPage.elmsByClass(".quickinfo");
+                                  jobPage.boxInfo("test");
                                   var elmPos = jobPage.elmsByClass(".article-bread");
                                   var content = boxInfo.innerHTML;                                  
                                   content.insertBefore(elmPos);
