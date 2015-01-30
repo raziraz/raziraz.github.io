@@ -360,8 +360,13 @@ NyTeknik.tabbedBox = function() {
 /*Move company info box in mobile view*/
 NyTeknik.moveJobBox = function() {
     var DOMReady = function() {
-        $(".body.page-lediga-jobb.resp .quickinfo:nth(2)").insertBefore(".body.page-lediga-jobb.resp .article-bread");
-                                  };
+        $("body.page-lediga-jobb.resp .article-bread").each(function() {
+                                  var boxInfo = $(this);
+                                  boxInfo.addClass("test");
+                                  
+                                  });
+    };
+    
     return {
     init: function() {
         Talentum.addOnDOMReady(DOMReady);
