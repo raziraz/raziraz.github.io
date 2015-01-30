@@ -3786,10 +3786,11 @@ P .entry-word {
   background: white;
 }
 
-#footer .general-links .title {
+#footer .general-links .content .title {
   margin: 0 0 3px 0;
   font-weight: bold;
   text-transform: uppercase;
+  float: none;
 }
 
 #footer .general-links A {
