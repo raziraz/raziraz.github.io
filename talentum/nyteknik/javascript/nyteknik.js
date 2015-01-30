@@ -362,7 +362,7 @@ NyTeknik.moveJobBox = function() {
     var DOMReady = function() {
         $("body.page-lediga-jobb.resp .quickinfo").each(function() {
                                   var boxInfo = $(this);
-                                  boxInfo.addClass("test");
+                                  boxInfo.addClass("test")[1];
                                   
                                   });
     };
