@@ -361,8 +361,8 @@ NyTeknik.tabbedBox = function() {
 NyTeknik.moveJobBox = function() {
     var DOMReady = function() {
         $("body.page-lediga-jobb.resp .quickinfo").each(function() {
-                                  var boxInfo = $(this, 1);
-                                  boxInfo.addClass("test");
+                                  var boxInfo = $(this);
+                                  boxInfo[1].addClass("test");
                                   
                                   });
     };
