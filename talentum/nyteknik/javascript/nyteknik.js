@@ -360,7 +360,7 @@ NyTeknik.tabbedBox = function() {
 /*Move company info box in mobile view*/
 NyTeknik.moveJobBox = function() {
     var DOMReady = function() {
-        $("body.page-lediga-jobb.resp .article .quickinfo:nth-child(2)").each(function() {
+        $("body.page-lediga-jobb.resp .quickinfo:nth-child(2)").each(function() {
                                   var boxInfo = $(this);
                                   boxInfo.addClass("test");
                                   
