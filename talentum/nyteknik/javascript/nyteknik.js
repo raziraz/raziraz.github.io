@@ -75,7 +75,7 @@ var NyTeknik = function() {
                                });
         Talentum.stickyTop.init();
         Talentum.pushResponsive.init();
-        Talentum.moveJobBox.init();
+        NyTeknik.moveJobBox.init();
         
         Talentum.addOnDOMReady( function() {
                                Talentum.toggleAnything({
