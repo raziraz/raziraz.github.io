@@ -361,7 +361,7 @@ NyTeknik.tabbedBox = function() {
 NyTeknik.moveJobBox = function() {
     var DOMReady = function() {
         $(".body.page-lediga-jobb.resp .quickinfo").insertBefore(" .body.page-lediga-jobb.resp .article-bread");
-                                  });
+                                  };
     };
     
     return {
