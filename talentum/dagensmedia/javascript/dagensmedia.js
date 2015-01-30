@@ -305,14 +305,11 @@ function removeClass(ele,cls) {
 
  function toggleMenu() {
  	var ele = document.getElementsByTagName('body')[0];
- 		if (hasClass(ele, "open")) {
- 			addClass(ele, "close");
- 			removeClass(ele, "open");
- 		}
- 		else {
- 			removeClass(ele, "close");
- 			addClass(ele, "open");
- 		}
+ 		if (!hasClass(ele, "open")) {
+        addClass(ele, "open");
+	    } else {
+	        removeClass(ele, "open");
+	    }
  	}
 
 	document.addEventListener('readystatechange', function() {
