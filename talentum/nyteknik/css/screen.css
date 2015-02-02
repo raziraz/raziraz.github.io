@@ -1782,12 +1782,17 @@ UL.tools {
 .page-lediga-jobb .additional-content UL.tools .print {
    background-position: 0 -167px;
 }
+
+.article .additional-content UL.tools .toggle-recommend,
 .page-lediga-jobb .additional-content UL.tools .toggle-recommend {
    background-position: 0 -195px;
 }
+
+.article .additional-content UL.tools .toggle-text-size,
 .page-lediga-jobb .additional-content UL.tools .toggle-text-size {
    background-position: 0 -222px;
 }
+
 
 UL.share {
    margin: 0;
