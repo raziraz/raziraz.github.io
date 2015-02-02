@@ -1779,6 +1779,7 @@ UL.tools {
    text-indent: -9999px;
 }
 
+<<<<<<< HEAD
 /* NEW TOOL ICONS */
 
 .article .additional-content UL.tools .toggle-recommend {
@@ -1796,6 +1797,9 @@ UL.tools {
     background-size: 100%;
 }
 
+=======
+.article .additional-content UL.tools .print,
+>>>>>>> parent of c717261... NyTeknik new tool icons
 .page-lediga-jobb .additional-content UL.tools .print {
    background-position: 0 -167px;
 }
