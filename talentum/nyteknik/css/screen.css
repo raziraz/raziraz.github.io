@@ -4126,6 +4126,10 @@ P .entry-word {
    position: relative;
 }
 
+.job-teaser.first {
+  margin-top: 10px !important;
+}
+
 .job-teaser H2 {
    margin: 16px 0 14px 0;
    text-indent: -280px;
