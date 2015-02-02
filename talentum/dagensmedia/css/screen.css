@@ -1407,48 +1407,36 @@ UL.tools {
     padding: 0;
 }
 
+
 .article .additional-content UL.tools LI, .article .additional-content UL.share LI
 {
     position: relative;
     float: left;
     margin: 0 3px 3px 0;
     text-align: left;
-    display: block;
-    height: 30px;
-    width: 30px;
-    background-color: #222;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-    border-radius: 3px;
 }
 
 .article .additional-content UL.tools .toggle-recommend, .article .additional-content UL.tools .print,
 .article .additional-content UL.tools .toggle-text-size, .facebook,
 .delicious, .digg, .twitter
 {
-    text-indent: -9999px;
-    width: 30px;
-    height: 30px;
+    background: transparent url(../images/icons.gif) no-repeat scroll 0 0;
     display: block;
-    background-size: 18px 18px;
+    height: 16px;
+    width: 16px;
+    text-indent: -9999px;
 }
 
-/* NEW TOOL ICONS */
+.article .additional-content UL.tools .print {
+    background-position: 0 -167px;
+}
 
 .article .additional-content UL.tools .toggle-recommend {
-    background: transparent url(../images/email-share-icon.png) no-repeat;
-    background-size: 18px 18px;
-    background-position: center center;
+    background-position: 0 -195px;
 }
-.article .additional-content UL.tools .print {
-    background: transparent url(../images/printer-icon.png) no-repeat;
-    background-size: 18px 18px;
-    background-position: center center;
-}
+
 .article .additional-content UL.tools .toggle-text-size {
-    background: transparent url(../images/font-size-icon.png) no-repeat;
-    background-size: 22px 18px;
-    background-position: center center;
+    background-position: 0 -222px;
 }
 
 .dm-jobb .additional-content .addthis_toolbox {
