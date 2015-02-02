@@ -1741,7 +1741,7 @@ UL.tools {
 .page-lediga-jobb .additional-content UL.tools LI {
    position: relative;
    float: left;
-   margin: 0 7px 3px 0;
+   margin: 0 4px 3px 0;
    text-align: left;
 }
 .article .additional-content UL.tools LI:first-child {
@@ -1773,36 +1773,12 @@ UL.tools {
 .twitter {
    background: transparent url(../images/icons.gif) no-repeat scroll 0 0;
    display: block;
-   height: 18px;
-   width: 18px;
-   background-size: 100%;
+   height: 16px;
+   width: 16px;
    text-indent: -9999px;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-/* NEW TOOL ICONS */
-
-.article .additional-content UL.tools .toggle-recommend {
-    background: transparent url(../images/email-share-icon.png) no-repeat scroll 0 0;
-    background-size: 100%;
-}
-.article .additional-content UL.tools .print {
-    background: transparent url(../images/printer-icon.png) no-repeat scroll 0 0;
-    background-size: 100%;
-}
-.article .additional-content UL.tools .toggle-text-size {
-    background: transparent url(../images/font-size-icon.png) no-repeat scroll 0 0;
-    height: 18px;
-    width: 24px;
-    background-size: 100%;
-}
-
-=======
-=======
->>>>>>> parent of c717261... NyTeknik new tool icons
 .article .additional-content UL.tools .print,
->>>>>>> parent of c717261... NyTeknik new tool icons
 .page-lediga-jobb .additional-content UL.tools .print {
    background-position: 0 -167px;
 }
