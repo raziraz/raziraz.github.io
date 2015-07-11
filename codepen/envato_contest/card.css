@@ -94,6 +94,9 @@ h2
 
     display: block;
 }
+.profile-card:hover > header a > img {
+    content: url(avatar-down.gif);
+}
 .profile-card:hover > header + .profile-bio
 {
     max-height: 200px;
