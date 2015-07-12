@@ -20,22 +20,6 @@ body
     background: url('bg-space.jpg') #222 center center;
     background-size: cover;
 }
-body:after
-{
-    position: absolute;
-
-    display: block;
-
-    width: 100%;
-    height: 100%;
-
-    content: '';
-    -webkit-animation: move 2s linear infinite;
-            animation: move 2s linear infinite;
-
-    background: url('cloud.png') transparent center center;
-    background-repeat: repeat;
-}
 h1
 {
     font-size: 18px;
@@ -93,9 +77,14 @@ h2
     line-height: 0;
 
     display: block;
+
+    background-image: url('avatar-down.gif');
+    background-size: 100% 100%;
 }
 .profile-card:hover > header a > img {
-    content: url(avatar-down.gif);
+    width: 100%;
+
+    opacity: 0;
 }
 .profile-card:hover > header + .profile-bio
 {
@@ -108,10 +97,6 @@ h2
 {
     -webkit-animation: fadein 2s;
             animation: fadein 2s;
-}
-.profile-card > header > a > img
-{
-    width: 100%;
 }
 .profile-bio
 {
@@ -168,7 +153,6 @@ h2
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
 }
-
 .profile-social-links img
 {
     width: 100%;
@@ -213,8 +197,6 @@ h2
     -webkit-filter: saturate(0) invert(100%);
             filter: saturate(0) invert(100%);
 }
-
-
 
 @media (max-width: 480px)
 {
@@ -339,30 +321,6 @@ h2
     {
         -webkit-transform: translateX(-1px);
                 transform: translateX(-1px);
-    }
-}
-
-@-webkit-keyframes move
-{
-    from
-    {
-        background-position: 0 0;
-    }
-    to
-    {
-        background-position: 0 10000px;
-    }
-}
-
-@keyframes move
-{
-    from
-    {
-        background-position: 0 0;
-    }
-    to
-    {
-        background-position: 0 10000px;
     }
 }
 
