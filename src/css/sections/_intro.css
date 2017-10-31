@@ -1,0 +1,38 @@
+
+.site-logo {
+	width: 22px;
+	height: 50px;
+	fill: var(--color-brand);
+
+	@media (--small) {
+		height: 25px;
+		fill: var(--color-white);
+	}
+
+	@media (--large) {
+		width: 28px;
+		height: 70px;
+	}
+}
+
+.box--intro-main {
+	width: var(--grid-4);
+	margin-left: calc(- var(--grid-base));
+	min-height: 100%;
+
+	@media (--small) {
+		width: var(--grid-5);
+		margin-left: calc(- var(--grid-3));
+	}
+}
+
+.box--intro-main__headline {
+	margin-top: 25%;
+
+	@media (--small) {
+		margin-top: 97	%;
+		background: var(--color-brand);
+		padding: 20px 15px;
+		color: var(--color-white);
+	}
+}

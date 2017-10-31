@@ -1,0 +1,89 @@
+/** hej **/
+
+img {
+	width: 100%;
+	background-color: red;
+}
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+ul {
+	padding: 0;
+	list-style-type: none;
+}
+
+.lazy-wrap {
+    position: relative;
+}
+.lazy-wrap:after {
+    content: '';
+    display: block;
+    height: 0;
+    width: 100%;
+}
+
+.lazy-wrap--portrait:after {
+	padding-bottom: 120%;
+}
+
+.lazy-wrap--landscape:after {
+	padding-bottom: 75%;
+}
+
+.lazy-wrap > * {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.lazyload,
+.lazyloading {
+	opacity: 0;
+}
+
+.lazyloaded {
+	opacity: 1;
+	transition: opacity 300ms;
+}
+
+.external-link__icon {
+	display: inline-block;
+	width: 25px;
+	height: 15px;
+	margin: 0 0 -4px 10px;
+	transition: margin-left 0.2s ease;
+}
+
+a:hover {
+	& .external-link__icon {
+		margin-left: 15px;
+	}
+}

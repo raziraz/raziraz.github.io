@@ -1,0 +1,27 @@
+
+:root {
+	--color-brand: #0000ff;
+	--color-white: #ffffff;
+	--color-black: #171717;
+	--color-grid: #eeeeee;
+	--color-gray: #8c8c8c;
+
+	--font-headline: 'acumin-pro';
+	--font-body: 'nimbus-sans';
+
+	--grid-base: 12.5%;
+
+	--grid-2: calc(var(--grid-base) * 2);
+	--grid-3: calc(var(--grid-base) * 3);
+	--grid-4: calc(var(--grid-base) * 4);
+	--grid-5: calc(var(--grid-base) * 5);
+	--grid-6: calc(var(--grid-base) * 6);
+	--grid-7: calc(var(--grid-base) * 7);
+	--grid-8: calc(var(--grid-base) * 8);
+
+	--spacing-section: 12em;
+}
+
+@custom-media --small (width <= 767px);
+@custom-media --medium (width >= 768px) and (width <= 960px);
+@custom-media --large (width >= 1200px);
