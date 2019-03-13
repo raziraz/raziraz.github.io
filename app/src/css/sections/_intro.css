@@ -1,0 +1,32 @@
+
+.site-logo {
+	width: 10em;
+	fill: var(--color-brand);
+	margin-bottom: 3em;
+
+	@media (--large) {
+		width: 20em;
+		height: auto;
+	}
+}
+
+.box--intro-main {
+	width: var(--grid-4);
+	margin-left: calc(- var(--grid-base));
+	min-height: 100%;
+
+	@media (--small) {
+		width: var(--grid-5);
+		margin-left: calc(- var(--grid-3));
+	}
+}
+
+.box--intro-main__headline {
+	margin-top: 15%;
+
+	@media (--small) {
+		margin-top: 97	%;
+		background: var(--color-white);
+		padding: 20px 15px;
+	}
+}

@@ -1,0 +1,78 @@
+
+body {
+	font-family: var(--font-body), 'sans-serif';
+	font-size: 16px;
+	color: var(--color-black);
+	line-height: 1.5;
+}
+
+h1,
+h2 {
+	font-family: var(--font-headline);
+	letter-spacing: .04rem;
+}
+
+h1 {
+	margin: .2em 0;
+	font-size: 3rem;
+	line-height: 1.2;
+	font-size: 4.375rem;
+
+	@media (--small) {
+		font-size: 1.6rem;
+	}
+}
+
+h2 {
+	font-size: 2.25rem;
+	line-height: 1.2;
+
+	@media (--small) {
+		font-size: 1.2rem;
+	}
+}
+
+h3 {
+
+}
+
+p {
+	margin: 0 0 1.5em 0;
+	font-size: 1rem;
+	line-height: 1.7;
+	letter-spacing: 0.03rem;
+
+	@media (--medium) {
+			font-size: .875rem;
+	}
+
+	@media (--small) {
+			font-size: .8rem;
+	}
+}
+
+.finstilta {
+	font-size: .7rem;
+}
+
+a {
+	color: var(--color-black);
+}
+
+strong {
+	color: var(--color-brand);
+}
+
+.wf-loading {
+	opacity: 0;
+}
+
+.wf-active {
+	opacity: 1;
+	transition: opacity 500ms;
+}
+
+::selection {
+	background: var(--color-brand);
+	color: var(--color-white);
+}
